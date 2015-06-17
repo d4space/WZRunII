@@ -1,0 +1,791 @@
+
+ === TRIGGER PATHS === 
+Trigger digitisation_step, prescale 1: PASS
+Trigger L1simulation_step, prescale 1: PASS
+Trigger digi2raw_step, prescale 1: PASS
+Trigger HLTriggerFirstPath, prescale 1: fail (or not run)
+Trigger HLT_AK8PFJet360_TrimMass30_v1, prescale 1: fail (or not run)
+Trigger HLT_AK8PFHT700_TrimR0p1PT0p03Mass50_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloJet500_NoJetID_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon13_PsiPrime_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon13_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon20_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle24_22_eta2p1_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_MW_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu33NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu38NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu23NoFiltersNoVtxDisplaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu28NoFiltersNoVtxDisplaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_3_Bs_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_3_Jpsi_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_JpsiTrk_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_LowMassNonResonantTrk_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_PsiPrimeTrk_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_L2Mu2_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_L2Mu2_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track2_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track3p5_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track7_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track2_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track3p5_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track7_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0er16_Jpsi_NoOS_NoVertexing_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0er16_Jpsi_NoVertexing_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon6_Jpsi_NoVertexing_v1, prescale 1: fail (or not run)
+Trigger HLT_DoublePhoton85_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele25WP60_Ele8_Mass55_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele22_eta2p1_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele22_eta2p1_WP75_Gsf_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele25WP60_SC4_Mass55_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele22_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_WP85_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele45_CaloIdVT_GsfTrkIdT_PFJet200_PFJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele105_CaloIdVT_GsfTrkIdT_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu16_eta2p1_CaloMET30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu16_eta2p1_CaloMET30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu16_eta2p1_CaloMET30_LooseIsoPFTau50_Trk30_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_LooseIsoPFTau20_SingleL1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_MediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleIsoMu17_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_CentralPFJet30_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_CentralPFJet30_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu27_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu20_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu27_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE30_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE30_NoBPTX_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE50_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE70_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_L1SingleMuOpen_v1, prescale 1: fail (or not run)
+Trigger HLT_L1SingleMuOpen_DT_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech_DT_GlobalOR_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech62_CASTORJet_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech63_CASTORHaloMuon_v1, prescale 1: fail (or not run)
+Trigger HLT_L1DoubleJet20_v1, prescale 1: PASS
+Trigger HLT_L1RomanPots_v1, prescale 1: PASS
+Trigger HLT_L1RomanPots_SinglePixelTrack04_v1, prescale 1: PASS
+Trigger HLT_L2DoubleMu23_NoVertex_v1, prescale 1: fail (or not run)
+Trigger HLT_L2DoubleMu28_NoVertex_2Cha_Angle2p5_Mass10_v1, prescale 1: fail (or not run)
+Trigger HLT_L2DoubleMu38_NoVertex_2Cha_Angle2p5_Mass10_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu10_NoVertex_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu10_NoVertex_NoBPTX_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu35_NoVertex_3Sta_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu40_NoVertex_3Sta_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_LooseIsoPFTau50_Trk30_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_LooseIsoPFTau50_Trk30_eta2p1_MET120_v1, prescale 1: fail (or not run)
+Trigger HLT_LooseIsoPFTau50_Trk30_eta2p1_MET80_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Mu8_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TkMu8_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu25_TkMu0_dEta18_Onia_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu27_TkMu8_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu30_TkMu11_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu40_TkMu11_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu40_eta2p1_PFJet200_PFJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu20_v1, prescale 1: fail (or not run)
+Trigger HLT_TkMu20_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_TkMu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu27_v1, prescale 1: fail (or not run)
+Trigger HLT_TkMu27_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu50_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu45_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtx_Photon38_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu42NoFiltersNoVtx_Photon42_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu28NoFiltersNoVtxDisplaced_Photon28_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu33NoFiltersNoVtxDisplaced_Photon33_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu18NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu23NoFiltersNoVtx_Photon23_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu33NoFiltersNoVtxDisplaced_DisplacedJet50_Tight_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu33NoFiltersNoVtxDisplaced_DisplacedJet50_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu28NoFiltersNoVtx_DisplacedJet40_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Tight_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtx_DisplacedJet60_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu28NoFiltersNoVtx_CentralCaloJet40_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT350_PFMET120_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT550_4Jet_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_4Jet_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT750_4Jet_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT350_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT600_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT900_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet15_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet20_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet40_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet60_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet80_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet140_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet200_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet260_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet320_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet400_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet450_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet500_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve30_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve60_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve80_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve100_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve160_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve220_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve300_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu140_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu80_v1, prescale 1: fail (or not run)
+Trigger HLT_DiCentralPFJet70_PFMET120_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_HT200_v1, prescale 1: fail (or not run)
+Trigger HLT_HT250_v1, prescale 1: fail (or not run)
+Trigger HLT_HT300_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_v1, prescale 1: fail (or not run)
+Trigger HLT_HT400_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT200_DiPFJet90_PFAlphaT0p57_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT250_DiPFJet90_PFAlphaT0p55_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT300_DiPFJet90_PFAlphaT0p53_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT350_DiPFJet90_PFAlphaT0p52_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT400_DiPFJet90_PFAlphaT0p51_v1, prescale 1: fail (or not run)
+Trigger HLT_MET75_IsoTrk50_v1, prescale 1: fail (or not run)
+Trigger HLT_MET90_IsoTrk50_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET120_NoiseCleaned_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET120_NoiseCleaned_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET170_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET90_PFMHT90_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET100_PFMHT100_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET110_PFMHT110_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET120_PFMHT120_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDLoose_BTagCSV0p7_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_DoubleBTagCSV_VBF_Mqq200_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_SingleBTagCSV_VBF_Mqq460_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_DoubleBTagCSV_VBF_Mqq240_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_SingleBTagCSV_VBF_Mqq500_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_L1_TripleJet_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadJet45_TripleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadJet45_DoubleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleJet90_Double30_TripleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleJet90_Double30_DoubleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon135_PFMET100_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon250_NoHE_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon300_NoHE_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu24_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu34_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet20_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet40_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet70_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet110_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_Jet300_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_TrkIsoVVL_Ele17_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu30_Ele30_CaloIdL_GsfTrkIdVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_DiEle12_CaloIdL_TrackIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu12_Photon25_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu12_Photon25_CaloIdL_L1ISO_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu12_Photon25_CaloIdL_L1OR_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Photon30_CaloIdL_L1ISO_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Photon35_CaloIdL_L1ISO_v1, prescale 1: fail (or not run)
+Trigger HLT_DiMu9_Ele9_CaloIdL_TrackIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_TripleMu_12_10_5_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu3er_PFHT140_PFMET125_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu6_PFHT200_PFMET100_NoiseCleaned_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu6_PFHT200_PFMET125_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu14er_PFMET120_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV0p41_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_WideJetMJJ900DEtaJJ1p5_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_WideJetMJJ950DEtaJJ1p5_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon30_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon36_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon50_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon175_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon165_HE10_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon30_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon36_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon50_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon165_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton44_28_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P1_R9Id50b80e_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton28_14_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass50_Eta_1p5_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PixelSeed_Mass70_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass95_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PV_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_DoublePV_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0_Jpsi_Muon_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0_Upsilon_Muon_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadMuon0_Dimuon0_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadMuon0_Dimuon0_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Mu8_SameSign_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Mu8_SameSign_DPhi_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR260_Rsq0p09_MR200_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR260_Rsq0p09_MR200_4jet_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR300_Rsq0p09_MR200_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR300_Rsq0p09_MR200_4jet_v1, prescale 1: fail (or not run)
+Trigger HLT_Rsq0p36_v1, prescale 1: fail (or not run)
+Trigger HLT_HT750_DisplacedDijet80_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_HT650_DisplacedDijet80_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_DisplacedDijet80_Tight_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_DisplacedDijet40_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_DisplacedDijet80_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_HT500_DisplacedDijet40_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_HT550_DisplacedDijet40_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_TightID_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_TightID_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VTightID_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VVTightID_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VTightID_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VVTightID_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMETNoMu120_NoiseCleaned_PFMHTNoMu120_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMETNoMu90_NoiseCleaned_PFMHTNoMu90_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_MonoCentralPFJet80_PFMETNoMu90_NoiseCleaned_PFMHTNoMu90_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_MonoCentralPFJet80_PFMETNoMu120_NoiseCleaned_PFMHTNoMu120_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMET200_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP85_Gsf_HT200_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_CaloIdL_PFHT500_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu8_Mass8_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu10_CentralPFJet30_BTagCSV0p5PF_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele10_CaloIdM_TrackIdM_CentralPFJet30_BTagCSV0p5PF_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_IsoVVVL_BTagtop8CSV07_PFHT400_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_IsoVVVL_PFHT400_PFMET70_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_IsoVVVL_PFHT600_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu10_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT350_PFMETNoMu60_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_IsoVVVL_BTagCSV07_PFHT400_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_IsoVVVL_PFHT400_PFMET70_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_IsoVVVL_PFHT600_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon16_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon10_Jpsi_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon8_PsiPrime_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon8_Upsilon_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0_Phi_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu16_TkMu0_dEta18_Onia_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu16_TkMu0_dEta18_Phi_v1, prescale 1: fail (or not run)
+Trigger HLT_TrkMu15_DoubleTrkMu5NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_TrkMu17_DoubleTrkMu8NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu24_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu34_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT450_SixJet40_PFBTagCSV_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT400_SixJet30_BTagCSV0p5_2PFBTagCSV_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT450_SixJet40_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT400_SixJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity60_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity85_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity110_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity135_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity160_v1, prescale 1: fail (or not run)
+Trigger HLT_ECALHT800_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele5_SC5_JPsi_Mass2to4p5_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet15_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet15_FBEta2_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet15_FBEta3_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet15_FwdEta2_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet15_FwdEta3_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet25_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet25_FwdEta2_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet25_FwdEta3_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet40_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet40_FwdEta2_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet40_FwdEta3_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve15_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve25_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve35_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve15_Central_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve25_Central_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve35_Central_v1, prescale 1: fail (or not run)
+Trigger HLT_L1RomanPots_SinglePixelTrack02_v1, prescale 1: PASS
+Trigger HLT_Physics_v1, prescale 1: PASS
+Trigger HLT_ReducedIterativeTracking_v1, prescale 1: PASS
+Trigger HLT_Random_v1, prescale 1: PASS
+Trigger HLT_ZeroBias_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4CaloJet40_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4CaloJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4CaloJet80_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4CaloJet100_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet80_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet100_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton10_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton15_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton20_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton40_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton60_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack12_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack20_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack30_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack50_v1, prescale 1: fail (or not run)
+Trigger HLT_L1SingleEG5_OR_EG10_OR_EG20_v1, prescale 1: fail (or not run)
+Trigger HLT_Activity_Ecal_SC7_v1, prescale 1: fail (or not run)
+Trigger HLT_EcalCalibration_v1, prescale 1: PASS
+Trigger AlCa_EcalPhiSym_v1, prescale 1: PASS
+Trigger HLT_HcalCalibration_v1, prescale 1: fail (or not run)
+Trigger HLT_GlobalRunHPDNoise_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech_HBHEHO_totalOR_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech_HCAL_HF_single_channel_v1, prescale 1: PASS
+Trigger HLT_HcalNZS_v1, prescale 1: PASS
+Trigger HLT_HcalPhiSym_v1, prescale 1: fail (or not run)
+Trigger HLT_HcalUTCA_v1, prescale 1: PASS
+Trigger AlCa_RPCMuonNoTriggers_v1, prescale 1: fail (or not run)
+Trigger AlCa_RPCMuonNoHits_v1, prescale 1: fail (or not run)
+Trigger AlCa_RPCMuonNormalisation_v1, prescale 1: fail (or not run)
+Trigger AlCa_LumiPixels_Random_v1, prescale 1: PASS
+Trigger AlCa_LumiPixels_ZeroBias_v1, prescale 1: PASS
+Trigger HLT_PFMETForMC_v1, prescale 1: PASS
+Trigger HLT_AK4PFJetsForMC_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHTForMC_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMHTForMC_v1, prescale 1: PASS
+Trigger HLT_CaloMETForMC_v1, prescale 1: PASS
+Trigger HLT_CaloMETCleanedForMC_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJetsForMC_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloHTForMC_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMHTForMC_v1, prescale 1: PASS
+Trigger HLT_AK8PFJetsForMC_v1, prescale 1: PASS
+Trigger HLT_AK8TrimPFJetsForMC_v1, prescale 1: PASS
+Trigger HLT_AK8PFHTForMC_v1, prescale 1: PASS
+Trigger HLT_AK8CaloHTForMC_v1, prescale 1: PASS
+Trigger HLT_IsoMu_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu15_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu_TrkIsoVVL_DZ_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleGlbTrkMu_TrkIsoVVL_DZ_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMuNoFiltersNoVtx_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLTriggerFinalPath, prescale 1: fail (or not run)
+
+ === TRIGGER OBJECTS === 
+	Trigger object:  pt 0.89475, eta 1.60324, phi -2.74763
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.889061, eta 0.944061, phi -2.37625
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 3.16922, eta -0.0483633, phi -1.75566
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 2.19512, eta 0.286384, phi -1.67601
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.06874, eta -0.43684, phi -1.36538
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.56671, eta -0.521662, phi -1.17565
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.17044, eta 0.158219, phi -1.16792
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.405576, eta -0.682737, phi -0.893425
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.507356, eta 0.941792, phi -0.449752
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.841779, eta -1.30215, phi -0.391617
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.466151, eta 0.524939, phi 0.0673644
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.739, eta -1.55683, phi 0.070046
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.424833, eta 1.43951, phi 0.238245
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.31701, eta 1.06228, phi 0.322941
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.493872, eta -0.60576, phi 0.410341
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.456809, eta 1.11188, phi 0.447657
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.5477, eta 1.14392, phi 0.705737
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.21729, eta -1.19091, phi 1.00363
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.475372, eta 1.69179, phi 1.38737
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.10588, eta -1.59453, phi 1.86656
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.99747, eta -1.35239, phi 1.8492
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.556469, eta -1.81645, phi 1.86029
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.864144, eta -0.906504, phi 2.02013
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.418282, eta -0.659545, phi 2.11997
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.970428, eta 0.812414, phi 2.2569
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.706723, eta 0.182536, phi 2.46609
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.480809, eta -1.06342, phi 2.75935
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.990995, eta 1.48651, phi 2.84411
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.649327, eta -1.34669, phi 2.85679
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.449912, eta 0.301417, phi 2.99098
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 3.33081, eta 2.34601, phi 3.08698
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.706232, eta -2.15539, phi -2.8694
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.16197, eta -1.92554, phi 1.72686
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.844131, eta -2.04025, phi 2.53856
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.21075, eta -2.18831, phi 2.75477
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 19.8812, eta -3.47375, phi 2.44124
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (0/0):    
+	Trigger object:  pt 16.5154, eta 1.00696, phi -2.427
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (0/0):    
+	Trigger object:  pt 16.3141, eta 1.87174, phi -2.75213
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (0/0):    
+	Trigger object:  pt 13.1673, eta 4.00099, phi 1.77356
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (0/0):    
+	Trigger object:  pt 13.0541, eta 0.865043, phi -1.80662
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (0/0):    
+	Trigger object:  pt 19.8812, eta -3.47375, phi 2.44124
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 16.5154, eta 1.00696, phi -2.427
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 16.3141, eta 1.87174, phi -2.75213
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 13.1673, eta 4.00099, phi 1.77356
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 13.0541, eta 0.865043, phi -1.80662
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 11.3364, eta 2.5003, phi 1.20742
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 11.0464, eta 3.88477, phi 0.278426
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 10.4062, eta 3.36524, phi -0.715574
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 10.2953, eta -0.0806708, phi -1.57497
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 10.1512, eta -3.54198, phi -1.80234
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (0/0):    
+	Trigger object:  pt 30.9032, eta 0, phi 0.145191
+	   Collection: hltAK8HtMhtForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltAK8CaloHTOpenFilter
+	   Paths (1/1):       HLT_AK8CaloHTForMC_v1(L,3)
+	Trigger object:  pt 0, eta 0, phi 0
+	   Collection: hltAK8HtMhtForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltAK8CaloHTOpenFilter
+	   Paths (1/1):       HLT_AK8CaloHTForMC_v1(L,3)
+	Trigger object:  pt 31.435, eta 0, phi 0.274484
+	   Collection: hltAK8PFHTForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltAK8PFHTOpenFilter
+	   Paths (1/1):       HLT_AK8PFHTForMC_v1(L,3)
+	Trigger object:  pt 0, eta 0, phi 0
+	   Collection: hltAK8PFHTForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltAK8PFHTOpenFilter
+	   Paths (1/1):       HLT_AK8PFHTForMC_v1(L,3)
+	Trigger object:  pt 0, eta 0, phi 0
+	   Collection: hltHtMhtForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltCaloHTOpenFilter hltMhtFilter
+	   Paths (1/1):       HLT_CaloMHTForMC_v1(L,3)
+	Trigger object:  pt 0, eta 0, phi 0
+	   Collection: hltHtMhtForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltCaloHTOpenFilter
+	   Paths (0/0):    
+	Trigger object:  pt 0, eta 0, phi 0
+	   Collection: hltPFHTForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltPFHTOpenFilter hltPFMHTOpenFilter
+	   Paths (1/1):       HLT_PFMHTForMC_v1(L,3)
+	Trigger object:  pt 0, eta 0, phi 0
+	   Collection: hltPFHTForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltPFHTOpenFilter
+	   Paths (0/0):    
+	Trigger object:  pt 29.7802, eta 0, phi 0.232566
+	   Collection: hltPFMETProducer::HLT
+	   Type IDs:    90
+	   Filters:     hltPFMETOpenFilter
+	   Paths (1/1):       HLT_PFMETForMC_v1(L,3)
+	Trigger object:  pt 25.3574, eta 0, phi 0.173209
+	   Collection: hltMet::HLT
+	   Type IDs:    0
+	   Filters:     hltCaloMETOpenFilter
+	   Paths (1/1):       HLT_CaloMETForMC_v1(L,3)
+	Trigger object:  pt 25.3574, eta 0, phi 0.173209
+	   Collection: hltMetCleanUsingJetID::HLT
+	   Type IDs:    87
+	   Filters:     hltMETCleanUsingJetIDOpenFilter
+	   Paths (1/1):       HLT_CaloMETCleanedForMC_v1(L,3)
+	Trigger object:  pt 24, eta -3.75, phi 2.44346
+	   Collection: hltL1extraParticles:Forward:HLT
+	   Type IDs:    -85
+	   Filters:     hltL1sHcalNZS
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 20, eta 0.8695, phi -2.44346
+	   Collection: hltL1extraParticles:Tau:HLT
+	   Type IDs:    -86
+	   Filters:     hltL1sHcalNZS
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 16, eta 0.8695, phi -1.74533
+	   Collection: hltL1extraParticles:Tau:HLT
+	   Type IDs:    -86
+	   Filters:     hltL1sHcalNZS
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 16.2024, eta -3.17084, phi 2.53086
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC hltDoublePFJet15 hltDoublePFJet15FBEta2 hltDoublePFJet15FBEta3 hltSinglePFJet15FwdEta2 hltSinglePFJet15FwdEta3 hltSinglePFJet15NoCaloMatched
+	   Paths (3/3):       HLT_PFJet15_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta3_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 12.1409, eta 2.61493, phi 1.21418
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve35ForCentralJEC
+	   Paths (0/0):    
+	Trigger object:  pt 11.1038, eta 0.899122, phi -1.8651
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC
+	   Paths (0/0):    
+	Trigger object:  pt 10.9679, eta 1.02581, phi -2.41739
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC
+	   Paths (0/0):    
+	Trigger object:  pt 26.6387, eta 0.999243, phi -2.15418
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 27.0065, eta 1.00455, phi -2.1681
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 22.5795, eta 2.6344, phi 1.01016
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 21.1496, eta -2.82485, phi -2.68522
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+

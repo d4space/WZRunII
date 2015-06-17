@@ -1,0 +1,1856 @@
+
+ === TRIGGER PATHS === 
+Trigger digitisation_step, prescale 1: PASS
+Trigger L1simulation_step, prescale 1: PASS
+Trigger digi2raw_step, prescale 1: PASS
+Trigger HLTriggerFirstPath, prescale 1: fail (or not run)
+Trigger HLT_AK8PFJet360_TrimMass30_v1, prescale 1: fail (or not run)
+Trigger HLT_AK8PFHT700_TrimR0p1PT0p03Mass50_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloJet500_NoJetID_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon13_PsiPrime_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon13_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon20_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle24_22_eta2p1_WP75_Gsf_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_MW_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle33_CaloIdL_GsfTrkIdVL_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu33NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu38NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu23NoFiltersNoVtxDisplaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu28NoFiltersNoVtxDisplaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_3_Bs_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_3_Jpsi_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_JpsiTrk_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_LowMassNonResonantTrk_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu4_PsiPrimeTrk_Displaced_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_L2Mu2_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_L2Mu2_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track2_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track3p5_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track7_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track2_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track3p5_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu7p5_Track7_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0er16_Jpsi_NoOS_NoVertexing_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0er16_Jpsi_NoVertexing_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon6_Jpsi_NoVertexing_v1, prescale 1: fail (or not run)
+Trigger HLT_DoublePhoton85_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele25WP60_Ele8_Mass55_v1, prescale 1: PASS
+Trigger HLT_Ele22_eta2p1_WP75_Gsf_v1, prescale 1: PASS
+Trigger HLT_Ele22_eta2p1_WP75_Gsf_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele25WP60_SC4_Mass55_v1, prescale 1: PASS
+Trigger HLT_Ele22_WP75_Gsf_v1, prescale 1: PASS
+Trigger HLT_Ele23_WP75_Gsf_v1, prescale 1: PASS
+Trigger HLT_Ele27_WP85_Gsf_v1, prescale 1: PASS
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1, prescale 1: PASS
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP75_Gsf_v1, prescale 1: PASS
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1, prescale 1: PASS
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele32_eta2p1_WP75_Gsf_v1, prescale 1: PASS
+Trigger HLT_Ele45_CaloIdVT_GsfTrkIdT_PFJet200_PFJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele105_CaloIdVT_GsfTrkIdT_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu16_eta2p1_CaloMET30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu16_eta2p1_CaloMET30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu16_eta2p1_CaloMET30_LooseIsoPFTau50_Trk30_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_LooseIsoPFTau20_SingleL1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu17_eta2p1_MediumIsoPFTau40_Trk1_eta2p1_Reg_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleIsoMu17_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_LooseIsoPFTau20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_CentralPFJet30_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu20_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_CentralPFJet30_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_TriCentralPFJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_TriCentralPFJet50_40_30_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoMu27_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu20_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu20_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu27_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE30_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE30_NoBPTX_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE50_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_JetE70_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_L1SingleMuOpen_v1, prescale 1: fail (or not run)
+Trigger HLT_L1SingleMuOpen_DT_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech_DT_GlobalOR_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech62_CASTORJet_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech63_CASTORHaloMuon_v1, prescale 1: fail (or not run)
+Trigger HLT_L1DoubleJet20_v1, prescale 1: PASS
+Trigger HLT_L1RomanPots_v1, prescale 1: PASS
+Trigger HLT_L1RomanPots_SinglePixelTrack04_v1, prescale 1: PASS
+Trigger HLT_L2DoubleMu23_NoVertex_v1, prescale 1: fail (or not run)
+Trigger HLT_L2DoubleMu28_NoVertex_2Cha_Angle2p5_Mass10_v1, prescale 1: fail (or not run)
+Trigger HLT_L2DoubleMu38_NoVertex_2Cha_Angle2p5_Mass10_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu10_NoVertex_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu10_NoVertex_NoBPTX_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu35_NoVertex_3Sta_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_L2Mu40_NoVertex_3Sta_NoBPTX3BX_NoHalo_v1, prescale 1: fail (or not run)
+Trigger HLT_LooseIsoPFTau50_Trk30_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_LooseIsoPFTau50_Trk30_eta2p1_MET120_v1, prescale 1: fail (or not run)
+Trigger HLT_LooseIsoPFTau50_Trk30_eta2p1_MET80_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Mu8_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TkMu8_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_TkMu8_TrkIsoVVL_DZ_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu25_TkMu0_dEta18_Onia_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu27_TkMu8_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu30_TkMu11_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu40_TkMu11_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu40_eta2p1_PFJet200_PFJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu20_v1, prescale 1: fail (or not run)
+Trigger HLT_TkMu20_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_TkMu24_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu27_v1, prescale 1: fail (or not run)
+Trigger HLT_TkMu27_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu50_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu45_eta2p1_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtx_Photon38_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu42NoFiltersNoVtx_Photon42_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu28NoFiltersNoVtxDisplaced_Photon28_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu33NoFiltersNoVtxDisplaced_Photon33_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu18NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu23NoFiltersNoVtx_Photon23_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu33NoFiltersNoVtxDisplaced_DisplacedJet50_Tight_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu33NoFiltersNoVtxDisplaced_DisplacedJet50_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu28NoFiltersNoVtx_DisplacedJet40_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Tight_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtxDisplaced_DisplacedJet60_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu38NoFiltersNoVtx_DisplacedJet60_Loose_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu28NoFiltersNoVtx_CentralCaloJet40_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT350_PFMET120_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT550_4Jet_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_4Jet_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT750_4Jet_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT350_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT600_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT900_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet15_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet20_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet40_v1, prescale 1: PASS
+Trigger HLT_PFJet60_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet80_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet140_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet200_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet260_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet320_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet400_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet450_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet500_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve30_HFJEC_v1, prescale 1: PASS
+Trigger HLT_DiPFJetAve60_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve80_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve100_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve160_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve220_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve300_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu140_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet40_DEta3p5_MJJ600_PFMETNoMu80_v1, prescale 1: fail (or not run)
+Trigger HLT_DiCentralPFJet70_PFMET120_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_HT200_v1, prescale 1: PASS
+Trigger HLT_HT250_v1, prescale 1: fail (or not run)
+Trigger HLT_HT300_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_v1, prescale 1: fail (or not run)
+Trigger HLT_HT400_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT200_DiPFJet90_PFAlphaT0p57_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT250_DiPFJet90_PFAlphaT0p55_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT300_DiPFJet90_PFAlphaT0p53_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT350_DiPFJet90_PFAlphaT0p52_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT400_DiPFJet90_PFAlphaT0p51_v1, prescale 1: fail (or not run)
+Trigger HLT_MET75_IsoTrk50_v1, prescale 1: fail (or not run)
+Trigger HLT_MET90_IsoTrk50_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET120_NoiseCleaned_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET120_NoiseCleaned_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET170_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET90_PFMHT90_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET100_PFMHT100_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET110_PFMHT110_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMET120_PFMHT120_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDLoose_BTagCSV0p7_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMHTNoPU90_PFMET90_PFMHT90_IDLoose_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_DoubleBTagCSV_VBF_Mqq200_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_SingleBTagCSV_VBF_Mqq460_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_DoubleBTagCSV_VBF_Mqq240_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_SingleBTagCSV_VBF_Mqq500_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadPFJet_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_L1_TripleJet_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadJet45_TripleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadJet45_DoubleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleJet90_Double30_TripleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleJet90_Double30_DoubleCSV0p5_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon135_PFMET100_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: PASS
+Trigger HLT_Photon250_NoHE_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon300_NoHE_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60_v1, prescale 1: PASS
+Trigger HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15_v1, prescale 1: PASS
+Trigger HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: PASS
+Trigger HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon50_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_PFMET40_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_R9Id90_HE10_Iso40_EBOnly_VBF_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu24_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu34_TrkIsoVVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1, prescale 1: PASS
+Trigger HLT_BTagMu_DiJet20_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet40_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet70_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_DiJet110_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_BTagMu_Jet300_Mu5_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1, prescale 1: PASS
+Trigger HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1, prescale 1: PASS
+Trigger HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_TrkIsoVVL_Ele17_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu30_Ele30_CaloIdL_GsfTrkIdVL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_DiEle12_CaloIdL_TrackIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu12_Photon25_CaloIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu12_Photon25_CaloIdL_L1ISO_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu12_Photon25_CaloIdL_L1OR_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Photon30_CaloIdL_L1ISO_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Photon35_CaloIdL_L1ISO_v1, prescale 1: fail (or not run)
+Trigger HLT_DiMu9_Ele9_CaloIdL_TrackIdL_v1, prescale 1: fail (or not run)
+Trigger HLT_TripleMu_12_10_5_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu3er_PFHT140_PFMET125_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu6_PFHT200_PFMET100_NoiseCleaned_BTagCSV07_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu6_PFHT200_PFMET125_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu14er_PFMET120_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: PASS
+Trigger HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: PASS
+Trigger HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: PASS
+Trigger HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1, prescale 1: PASS
+Trigger HLT_AK8DiPFJet280_200_TrimMass30_BTagCSV0p41_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_WideJetMJJ900DEtaJJ1p5_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT650_WideJetMJJ950DEtaJJ1p5_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_v1, prescale 1: PASS
+Trigger HLT_Photon30_v1, prescale 1: PASS
+Trigger HLT_Photon36_v1, prescale 1: PASS
+Trigger HLT_Photon50_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon175_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon165_HE10_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon22_R9Id90_HE10_IsoM_v1, prescale 1: PASS
+Trigger HLT_Photon30_R9Id90_HE10_IsoM_v1, prescale 1: PASS
+Trigger HLT_Photon36_R9Id90_HE10_IsoM_v1, prescale 1: PASS
+Trigger HLT_Photon50_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon75_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon120_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon165_R9Id90_HE10_IsoM_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton44_28_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P1_R9Id50b80e_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton28_14_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass50_Eta_1p5_v1, prescale 1: PASS
+Trigger HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PixelSeed_Mass70_v1, prescale 1: PASS
+Trigger HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass95_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1, prescale 1: PASS
+Trigger HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PV_v1, prescale 1: fail (or not run)
+Trigger HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_DoublePV_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0_Jpsi_Muon_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0_Upsilon_Muon_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadMuon0_Dimuon0_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_QuadMuon0_Dimuon0_Upsilon_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Mu8_SameSign_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_Mu8_SameSign_DPhi_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR260_Rsq0p09_MR200_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR260_Rsq0p09_MR200_4jet_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR300_Rsq0p09_MR200_v1, prescale 1: fail (or not run)
+Trigger HLT_RsqMR300_Rsq0p09_MR200_4jet_v1, prescale 1: fail (or not run)
+Trigger HLT_Rsq0p36_v1, prescale 1: fail (or not run)
+Trigger HLT_HT750_DisplacedDijet80_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_HT650_DisplacedDijet80_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_DisplacedDijet80_Tight_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_DisplacedDijet40_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_HT350_DisplacedDijet80_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_HT500_DisplacedDijet40_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_HT550_DisplacedDijet40_Inclusive_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_TightID_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_TightID_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VTightID_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VVTightID_Hadronic_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VTightID_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_VBF_DisplacedJet40_VVTightID_DisplacedTrack_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMETNoMu120_NoiseCleaned_PFMHTNoMu120_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_PFMETNoMu90_NoiseCleaned_PFMHTNoMu90_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_MonoCentralPFJet80_PFMETNoMu90_NoiseCleaned_PFMHTNoMu90_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_MonoCentralPFJet80_PFMETNoMu120_NoiseCleaned_PFMHTNoMu120_IDTight_v1, prescale 1: fail (or not run)
+Trigger HLT_CaloMET200_NoiseCleaned_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele27_eta2p1_WP85_Gsf_HT200_v1, prescale 1: fail (or not run)
+Trigger HLT_Photon90_CaloIdL_PFHT500_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu8_Mass8_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu10_CentralPFJet30_BTagCSV0p5PF_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele10_CaloIdM_TrackIdM_CentralPFJet30_BTagCSV0p5PF_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_IsoVVVL_BTagtop8CSV07_PFHT400_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_IsoVVVL_PFHT400_PFMET70_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_IsoVVVL_PFHT600_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele15_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu10_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT350_PFMETNoMu60_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_IsoVVVL_BTagCSV07_PFHT400_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_IsoVVVL_PFHT400_PFMET70_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_IsoVVVL_PFHT600_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu15_PFHT300_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon16_Jpsi_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon10_Jpsi_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon8_PsiPrime_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon8_Upsilon_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Dimuon0_Phi_Barrel_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu16_TkMu0_dEta18_Onia_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu16_TkMu0_dEta18_Phi_v1, prescale 1: fail (or not run)
+Trigger HLT_TrkMu15_DoubleTrkMu5NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_TrkMu17_DoubleTrkMu8NoFiltersNoVtx_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu8_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu17_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu24_v1, prescale 1: fail (or not run)
+Trigger HLT_Mu34_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: PASS
+Trigger HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1, prescale 1: PASS
+Trigger HLT_PFHT450_SixJet40_PFBTagCSV_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT400_SixJet30_BTagCSV0p5_2PFBTagCSV_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT450_SixJet40_v1, prescale 1: fail (or not run)
+Trigger HLT_PFHT400_SixJet30_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity60_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity85_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity110_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity135_v1, prescale 1: fail (or not run)
+Trigger HLT_PixelTracks_Multiplicity160_v1, prescale 1: fail (or not run)
+Trigger HLT_ECALHT800_v1, prescale 1: fail (or not run)
+Trigger HLT_Ele5_SC5_JPsi_Mass2to4p5_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJet15_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_DiPFJet15_FBEta2_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_DiPFJet15_FBEta3_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet15_FwdEta2_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet15_FwdEta3_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet25_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet25_FwdEta2_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet25_FwdEta3_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_PFJet40_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet40_FwdEta2_NoCaloMatched_v1, prescale 1: PASS
+Trigger HLT_PFJet40_FwdEta3_NoCaloMatched_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve15_HFJEC_v1, prescale 1: PASS
+Trigger HLT_DiPFJetAve25_HFJEC_v1, prescale 1: PASS
+Trigger HLT_DiPFJetAve35_HFJEC_v1, prescale 1: fail (or not run)
+Trigger HLT_DiPFJetAve15_Central_v1, prescale 1: PASS
+Trigger HLT_DiPFJetAve25_Central_v1, prescale 1: PASS
+Trigger HLT_DiPFJetAve35_Central_v1, prescale 1: PASS
+Trigger HLT_L1RomanPots_SinglePixelTrack02_v1, prescale 1: PASS
+Trigger HLT_Physics_v1, prescale 1: PASS
+Trigger HLT_ReducedIterativeTracking_v1, prescale 1: PASS
+Trigger HLT_Random_v1, prescale 1: PASS
+Trigger HLT_ZeroBias_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJet30_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJet40_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJet50_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJet80_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4CaloJet100_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet30_v1, prescale 1: PASS
+Trigger HLT_AK4PFJet50_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet80_v1, prescale 1: fail (or not run)
+Trigger HLT_AK4PFJet100_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton10_v1, prescale 1: PASS
+Trigger HLT_HISinglePhoton15_v1, prescale 1: PASS
+Trigger HLT_HISinglePhoton20_v1, prescale 1: PASS
+Trigger HLT_HISinglePhoton40_v1, prescale 1: fail (or not run)
+Trigger HLT_HISinglePhoton60_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack12_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack20_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack30_v1, prescale 1: fail (or not run)
+Trigger HLT_FullTrack50_v1, prescale 1: fail (or not run)
+Trigger HLT_L1SingleEG5_OR_EG10_OR_EG20_v1, prescale 1: PASS
+Trigger HLT_Activity_Ecal_SC7_v1, prescale 1: PASS
+Trigger HLT_EcalCalibration_v1, prescale 1: PASS
+Trigger AlCa_EcalPhiSym_v1, prescale 1: PASS
+Trigger HLT_HcalCalibration_v1, prescale 1: fail (or not run)
+Trigger HLT_GlobalRunHPDNoise_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech_HBHEHO_totalOR_v1, prescale 1: fail (or not run)
+Trigger HLT_L1Tech_HCAL_HF_single_channel_v1, prescale 1: PASS
+Trigger HLT_HcalNZS_v1, prescale 1: PASS
+Trigger HLT_HcalPhiSym_v1, prescale 1: PASS
+Trigger HLT_HcalUTCA_v1, prescale 1: PASS
+Trigger AlCa_RPCMuonNoTriggers_v1, prescale 1: fail (or not run)
+Trigger AlCa_RPCMuonNoHits_v1, prescale 1: fail (or not run)
+Trigger AlCa_RPCMuonNormalisation_v1, prescale 1: fail (or not run)
+Trigger AlCa_LumiPixels_Random_v1, prescale 1: PASS
+Trigger AlCa_LumiPixels_ZeroBias_v1, prescale 1: PASS
+Trigger HLT_PFMETForMC_v1, prescale 1: PASS
+Trigger HLT_AK4PFJetsForMC_v1, prescale 1: PASS
+Trigger HLT_PFHTForMC_v1, prescale 1: PASS
+Trigger HLT_PFMHTForMC_v1, prescale 1: PASS
+Trigger HLT_CaloMETForMC_v1, prescale 1: PASS
+Trigger HLT_CaloMETCleanedForMC_v1, prescale 1: PASS
+Trigger HLT_AK4CaloJetsForMC_v1, prescale 1: PASS
+Trigger HLT_CaloHTForMC_v1, prescale 1: PASS
+Trigger HLT_CaloMHTForMC_v1, prescale 1: PASS
+Trigger HLT_AK8PFJetsForMC_v1, prescale 1: PASS
+Trigger HLT_AK8TrimPFJetsForMC_v1, prescale 1: PASS
+Trigger HLT_AK8PFHTForMC_v1, prescale 1: PASS
+Trigger HLT_AK8CaloHTForMC_v1, prescale 1: PASS
+Trigger HLT_IsoMu_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_IsoTkMu15_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMu_TrkIsoVVL_DZ_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleGlbTrkMu_TrkIsoVVL_DZ_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLT_DoubleMuNoFiltersNoVtx_SaveObjects_v1, prescale 1: fail (or not run)
+Trigger HLTriggerFinalPath, prescale 1: fail (or not run)
+
+ === TRIGGER OBJECTS === 
+	Trigger object:  pt 40.5793, eta 0.911433, phi 3.05413
+	   Collection: hltEgammaCandidates::HLT
+	   Type IDs:    92 81
+	   Filters:     hltDoubleEle8CaloIdMPixelMatchFilter hltEG22EtL1EG20Filter hltEG22HEFilter hltEG22R9Id90HE10Iso40EBOnlyTrackIsoFilter hltEG22R9Id90HE10IsoMTrackIsoFilter hltEG26R9Id85HE10R9Id65R9IdEta2LastFilter hltEG28R9Id85HE10P0R9Id50b80eR9IdLastFilter hltEG30HEFilter hltEG30LR9Id85HE10P0R9Id50b80eR9IdLastFilter hltEG30R9Id85HE10P0R9Id50b80eR9IdLastFilter hltEG30R9Id90HE10IsoMTrackIsoFilter hltEG36HEFilter hltEG36R9Id85HE10R9Id65R9IdEta2LastFilter hltEG36R9Id90HE10Iso40EBOnlyTrackIsoFilter hltEG36R9Id90HE10IsoMTrackIsoFilter hltEle12CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle12CaloIdMPixelMatchFilter hltEle15VVVLGsfTrackIsoFilter hltEle17Ele12CaloIdLTrackIdLIsoVLDZFilter hltEle17Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg1Filter hltEle17Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg2Filter hltEle18CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle18CaloIdMPixelMatchFilter hltEle22WP75ClusterShapeFilter hltEle22WP75EcalIsoFilter hltEle22WP75GsfChi2Filter hltEle22WP75GsfDetaFilter hltEle22WP75GsfDphiFilter hltEle22WP75GsfOneOEMinusOneOPFilter hltEle22WP75GsfTrackIsoFilter hltEle22WP75HcEFilter hltEle22WP75HcalIsoFilter hltEle22WP75PixelMatchFilter hltEle23CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle23CaloIdMPixelMatchFilter hltEle23Ele12CaloIdLTrackIdLIsoVLDZFilter hltEle23Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg1Filter hltEle23Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg2Filter hltEle23WP75ClusterShapeFilter hltEle23WP75EcalIsoFilter hltEle23WP75GsfChi2Filter hltEle23WP75GsfOneOEMinusOneOPFilter hltEle23WP75GsfTrackIsoFilter hltEle23WP75HcEFilter hltEle23WP75HcalIsoFilter hltEle23WP75PixelMatchFilter hltEle25WP60Ele8ClusterShapeFilter hltEle25WP60Ele8DetaFilter hltEle25WP60Ele8DphiFilter hltEle25WP60Ele8EcalIsoFilter hltEle25WP60Ele8EtFilter hltEle25WP60Ele8HEFilter hltEle25WP60Ele8HcalIsoFilter hltEle25WP60Ele8OneOEMinusOneOPFilter hltEle25WP60Ele8PixelMatchFilter hltEle25WP60Ele8TrackIsoFilter hltEle25WP60SC4ClusterShapeFilter hltEle25WP60SC4DetaFilter hltEle25WP60SC4DphiFilter hltEle25WP60SC4EcalIsoFilter hltEle25WP60SC4EtFilter hltEle25WP60SC4HEFilter hltEle25WP60SC4HcalIsoFilter hltEle25WP60SC4OneOEMinusOneOPFilter hltEle25WP60SC4PixelMatchFilter hltEle25WP60SC4TrackIsoFilter hltEle27WP75GsfTrackIsoFilter hltEle32WP75GsfTrackIsoFilter hltEle33CaloIdLGsfTrkIdVLDPhiFilter hltEle33CaloIdLNewPixelMatchFilter hltEle33CaloIdLPixelMatchFilter hltEle33CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle33CaloIdMPixelMatchFilter hltEle5SC5JPsiClusterShapeFilter hltEle5SC5JPsiEcalIsoFilter hltEle5SC5JPsiEtFilter hltEle5SC5JPsiHEFilter hltEle5SC5JPsiHcalIsoFilter hltEle5SC5JPsiOneOEMinusOneOPFilter hltEle5SC5JPsiPixelMatchFilter hltEle5SC5JPsiTrackIsoFilter hltEle8CaloIdMPixelMatchFilter hltL1EG25Ele27WP85GsfTrackIsoFilter hltL1EGHttEle27WP85GsfTrackIsoFilter hltSingleEle22WP75GsfTrackIsoFilter
+	   Paths (34/18):       HLT_Ele22_WP75_Gsf_v1(L,3)   HLT_Photon22_v1(L,3)   HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Photon22_R9Id90_HE10_IsoM_v1(L,3)   HLT_Photon30_v1(L,3)   HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_Photon30_R9Id90_HE10_IsoM_v1(L,3)   HLT_Photon36_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Photon36_R9Id90_HE10_IsoM_v1(L,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(L,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(L,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele23_WP75_Gsf_v1(L,3)   HLT_Ele25WP60_Ele8_Mass55_v1(*,3)   HLT_Ele25WP60_SC4_Mass55_v1(*,3)   HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele27_eta2p1_WP75_Gsf_v1(L,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_v1(L,3)   HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele27_WP85_Gsf_v1(L,3)   HLT_Ele22_eta2p1_WP75_Gsf_v1(L,3)
+	Trigger object:  pt 31.75, eta 1.19069, phi 0.0463092
+	   Collection: hltEgammaCandidates::HLT
+	   Type IDs:    92 81
+	   Filters:     hltDoubleEle8CaloIdMPixelMatchFilter hltEG22EtL1EG20Filter hltEG22HEFilter hltEG22R9Id90HE10Iso40EBOnlyTrackIsoFilter hltEG22R9Id90HE10IsoMTrackIsoFilter hltEG26R9Id85HE10R9Id65R9IdEta2LastFilter hltEG28R9Id85HE10P0R9Id50b80eR9IdLastFilter hltEG30HEFilter hltEG30LR9Id85HE10P0R9Id50b80eR9IdLastFilter hltEG30R9Id85HE10P0R9Id50b80eR9IdLastFilter hltEG30R9Id90HE10IsoMTrackIsoFilter hltEle12CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle12CaloIdMPixelMatchFilter hltEle15VVVLGsfTrackIsoFilter hltEle17Ele12CaloIdLTrackIdLIsoVLDZFilter hltEle17Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg1Filter hltEle17Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg2Filter hltEle18CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle18CaloIdMPixelMatchFilter hltEle22WP75ClusterShapeFilter hltEle22WP75EcalIsoFilter hltEle22WP75HcEFilter hltEle23CaloIdLTrackIdLIsoVLTrackIsoFilter hltEle23CaloIdMPixelMatchFilter hltEle23Ele12CaloIdLTrackIdLIsoVLDZFilter hltEle23Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg1Filter hltEle23Ele12CaloIdLTrackIdLIsoVLTrackIsoLeg2Filter hltEle23WP75ClusterShapeFilter hltEle23WP75EcalIsoFilter hltEle23WP75HcEFilter hltEle25WP60Ele8ClusterShapeFilter hltEle25WP60Ele8EcalIsoFilter hltEle25WP60Ele8EtFilter hltEle25WP60Ele8HEFilter hltEle25WP60SC4ClusterShapeFilter hltEle25WP60SC4EcalIsoFilter hltEle25WP60SC4EtFilter hltEle25WP60SC4HEFilter hltEle5SC5JPsiClusterShapeFilter hltEle5SC5JPsiEcalIsoFilter hltEle5SC5JPsiEtFilter hltEle5SC5JPsiHEFilter hltEle5SC5JPsiHcalIsoFilter hltEle5SC5JPsiOneOEMinusOneOPFilter hltEle5SC5JPsiPixelMatchFilter hltEle5SC5JPsiTrackIsoFilter hltEle8CaloIdMPixelMatchFilter
+	   Paths (23/10):       HLT_Ele22_WP75_Gsf_v1(*,3)   HLT_Photon22_v1(L,3)   HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Photon22_R9Id90_HE10_IsoM_v1(L,3)   HLT_Photon30_v1(L,3)   HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_Photon30_R9Id90_HE10_IsoM_v1(L,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(L,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(L,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1(L,3)   HLT_Ele23_WP75_Gsf_v1(*,3)   HLT_Ele25WP60_Ele8_Mass55_v1(*,3)   HLT_Ele25WP60_SC4_Mass55_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)
+	Trigger object:  pt 14.5307, eta 0.39904, phi 2.38966
+	   Collection: hltEgammaCandidates::HLT
+	   Type IDs:    92 81
+	   Filters:     hltDoubleEle8CaloIdMPixelMatchFilter hltEle12CaloIdMPixelMatchFilter hltEle5SC5JPsiClusterShapeFilter hltEle5SC5JPsiEcalIsoFilter hltEle5SC5JPsiEtFilter hltEle5SC5JPsiHEFilter hltEle5SC5JPsiHcalIsoFilter hltEle5SC5JPsiPixelMatchFilter hltEle8CaloIdMPixelMatchFilter
+	   Paths (2/0):       HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)
+	Trigger object:  pt 40.5793, eta 0.911433, phi 3.05413
+	   Collection: hltEgammaCandidatesUnseeded::HLT
+	   Type IDs:    81 92
+	   Filters:     hltEG14Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededLastFilter hltEG14R9Id85HE10P0R9Id50b80eR9UnseededLastFilter hltEG16Iso50T80LCaloId24b40eHE10R9Id65TrackIsoUnseededLastFilter hltEG16R9Id85HE10R9Id65R9IdUnseededLastFilter hltEG18Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoSolidUnseededLastFilter hltEG18Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededLastFilter hltEG18Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededpixSeedLastFilter hltEG18R9Id85HE10P0R9Id50b80eR9UnseededLastFilter hltEG18R9Id85HE10P0R9Id50b80eR9pixSeedUnseededLastFilter hltEG22Iso50T80LCaloId24b40eHE10R9Id65TrackIsoUnseededLastFilter hltEG22R9Id85HE10R9Id65R9IdUnseededLastFilter hltEle25WP60Ele8EtUnseededFilter hltEle25WP60Ele8PixelMatchUnseededFilter hltEle25WP60SC4EtUnseededFilter hltEle5SC5JPsiEtUnseededFilter
+	   Paths (3/2):       HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_Ele25WP60_Ele8_Mass55_v1(L,3)   HLT_Ele25WP60_SC4_Mass55_v1(L,3)
+	Trigger object:  pt 31.75, eta 1.19069, phi 0.0463092
+	   Collection: hltEgammaCandidatesUnseeded::HLT
+	   Type IDs:    81 92
+	   Filters:     hltEG14Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededLastFilter hltEG14R9Id85HE10P0R9Id50b80eR9UnseededLastFilter hltEG16Iso50T80LCaloId24b40eHE10R9Id65TrackIsoUnseededLastFilter hltEG16R9Id85HE10R9Id65R9IdUnseededLastFilter hltEG18Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoSolidUnseededLastFilter hltEG18Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededLastFilter hltEG18Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededpixSeedLastFilter hltEG18R9Id85HE10P0R9Id50b80eR9UnseededLastFilter hltEG18R9Id85HE10P0R9Id50b80eR9pixSeedUnseededLastFilter hltEG22Iso50T80LCaloId24b40eHE10R9Id65TrackIsoUnseededLastFilter hltEG22R9Id85HE10R9Id65R9IdUnseededLastFilter hltEle25WP60Ele8EtUnseededFilter hltEle25WP60Ele8PixelMatchUnseededFilter hltEle25WP60SC4EtUnseededFilter hltEle5SC5JPsiEtUnseededFilter
+	   Paths (3/2):       HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_Ele25WP60_Ele8_Mass55_v1(L,3)   HLT_Ele25WP60_SC4_Mass55_v1(L,3)
+	Trigger object:  pt 14.5307, eta 0.39904, phi 2.38966
+	   Collection: hltEgammaCandidatesUnseeded::HLT
+	   Type IDs:    81 92
+	   Filters:     hltEG14Iso50T80LCaloId24b40eHE10P0R9Id50b80eTrackIsoUnseededLastFilter hltEG14R9Id85HE10P0R9Id50b80eR9UnseededLastFilter hltEle25WP60Ele8EtUnseededFilter hltEle25WP60Ele8PixelMatchUnseededFilter hltEle25WP60SC4EtUnseededFilter hltEle5SC5JPsiEtUnseededFilter
+	   Paths (2/2):       HLT_Ele25WP60_Ele8_Mass55_v1(L,3)   HLT_Ele25WP60_SC4_Mass55_v1(L,3)
+	Trigger object:  pt 4.05435, eta -0.500084, phi -3.00711
+	   Collection: hltEgammaCandidatesUnseeded::HLT
+	   Type IDs:    92
+	   Filters:     hltEle25WP60SC4EtUnseededFilter hltEle5SC5JPsiEtUnseededFilter
+	   Paths (1/1):       HLT_Ele25WP60_SC4_Mass55_v1(L,3)
+	Trigger object:  pt 11.8728, eta -2.35642, phi -0.00590991
+	   Collection: hltEgammaCandidatesUnseeded::HLT
+	   Type IDs:    92
+	   Filters:     hltEle25WP60Ele8EtUnseededFilter hltEle25WP60Ele8PixelMatchUnseededFilter hltEle25WP60SC4EtUnseededFilter hltEle5SC5JPsiEtUnseededFilter
+	   Paths (2/2):       HLT_Ele25WP60_Ele8_Mass55_v1(L,3)   HLT_Ele25WP60_SC4_Mass55_v1(L,3)
+	Trigger object:  pt 6.33663, eta -2.82329, phi 2.96513
+	   Collection: hltEgammaCandidatesUnseeded::HLT
+	   Type IDs:    92
+	   Filters:     hltEle25WP60SC4EtUnseededFilter hltEle5SC5JPsiEtUnseededFilter
+	   Paths (1/1):       HLT_Ele25WP60_SC4_Mass55_v1(L,3)
+	Trigger object:  pt 39.674, eta 0.911441, phi 3.05408
+	   Collection: hltRecoHIEcalWithCleaningCandidate::HLT
+	   Type IDs:    81
+	   Filters:     hltHIPhoton10 hltHIPhoton15 hltHIPhoton20
+	   Paths (3/3):       HLT_HISinglePhoton10_v1(L,3)   HLT_HISinglePhoton15_v1(L,3)   HLT_HISinglePhoton20_v1(L,3)
+	Trigger object:  pt 34.0419, eta 1.19125, phi 0.0428247
+	   Collection: hltRecoHIEcalWithCleaningCandidate::HLT
+	   Type IDs:    81
+	   Filters:     hltHIPhoton10 hltHIPhoton15 hltHIPhoton20
+	   Paths (3/3):       HLT_HISinglePhoton10_v1(L,3)   HLT_HISinglePhoton15_v1(L,3)   HLT_HISinglePhoton20_v1(L,3)
+	Trigger object:  pt 14.0402, eta 0.399094, phi 2.38965
+	   Collection: hltRecoHIEcalWithCleaningCandidate::HLT
+	   Type IDs:    81
+	   Filters:     hltHIPhoton10
+	   Paths (1/1):       HLT_HISinglePhoton10_v1(L,3)
+	Trigger object:  pt 14.6832, eta -2.37167, phi 0.0194544
+	   Collection: hltRecoHIEcalWithCleaningCandidate::HLT
+	   Type IDs:    81
+	   Filters:     hltHIPhoton10
+	   Paths (1/1):       HLT_HISinglePhoton10_v1(L,3)
+	Trigger object:  pt 40.8386, eta 0.902585, phi 3.07193
+	   Collection: hltDoubleEle8HLTPixelMatchElectronProducer::HLT
+	   Type IDs:    82
+	   Filters:     hltDoubleEle8Mass8Filter hltDoubleEle8OneOEMinusOneOPFilterRegional
+	   Paths (0/0):    
+	Trigger object:  pt 31.9296, eta 1.18388, phi 0.0236739
+	   Collection: hltDoubleEle8HLTPixelMatchElectronProducer::HLT
+	   Type IDs:    82
+	   Filters:     hltDoubleEle8Mass8Filter hltDoubleEle8OneOEMinusOneOPFilterRegional
+	   Paths (0/0):    
+	Trigger object:  pt 40.8386, eta 0.902585, phi 3.07193
+	   Collection: hltEleHLTPixelMatchElectronProducers::HLT
+	   Type IDs:    82
+	   Filters:     hltEle12CaloIdMTrkIdMDPhiFilter hltEle12OneOEMinusOneOPFilterRegional hltEle18CaloIdMTrkIdMDPhiFilter hltEle18OneOEMinusOneOPFilterRegional hltEle23CaloIdMTrkIdMDPhiFilter hltEle23OneOEMinusOneOPFilterRegional hltEle33CaloIdMTrkIdMDPhiFilter hltEle33OneOEMinusOneOPFilterRegional hltEle8CaloIdMTrkIdMDPhiFilter hltEle8OneOEMinusOneOPFilterRegional
+	   Paths (5/0):       HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)
+	Trigger object:  pt 31.9296, eta 1.18388, phi 0.0236739
+	   Collection: hltEleHLTPixelMatchElectronProducers::HLT
+	   Type IDs:    82
+	   Filters:     hltEle12CaloIdMTrkIdMDPhiFilter hltEle12OneOEMinusOneOPFilterRegional hltEle18CaloIdMTrkIdMDPhiFilter hltEle18OneOEMinusOneOPFilterRegional hltEle23CaloIdMTrkIdMDPhiFilter hltEle23OneOEMinusOneOPFilterRegional hltEle8CaloIdMTrkIdMDPhiFilter hltEle8OneOEMinusOneOPFilterRegional
+	   Paths (4/0):       HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)
+	Trigger object:  pt 0.504433, eta 0.0955877, phi -2.96277
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 3.44497, eta 2.06096, phi -2.935
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.554046, eta 1.5743, phi -2.59085
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.756102, eta 1.63971, phi -2.57132
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.894795, eta -1.08317, phi -2.503
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.803754, eta 1.59211, phi -1.98847
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.633794, eta -0.750666, phi -1.56469
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.957258, eta 1.34706, phi -1.46711
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.521229, eta 0.916265, phi -1.23056
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.614616, eta -0.0124242, phi -1.0716
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.660118, eta 1.20259, phi -0.951584
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.60686, eta 1.20221, phi -0.646466
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.940477, eta 0.305639, phi -0.452481
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.45002, eta 0.654084, phi -0.0765487
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.07837, eta -1.46953, phi 0.0894388
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.544993, eta -0.523243, phi 0.377831
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.26384, eta 1.35324, phi 0.31926
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.818725, eta -1.41285, phi 0.481813
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.490904, eta 0.942137, phi 0.582408
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.53027, eta 1.02865, phi 0.475064
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.830813, eta 1.21374, phi 0.972201
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.51097, eta 1.55131, phi 1.18879
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.464073, eta 0.962593, phi 1.34715
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.465555, eta 0.218706, phi 1.62116
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 4.24462, eta 1.10134, phi 1.74883
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.590699, eta 0.734353, phi 1.87111
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.529551, eta -0.1292, phi 2.02691
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.935959, eta 0.697868, phi 2.1481
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.779907, eta 1.1907, phi 2.57367
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.541696, eta -0.520524, phi 2.59002
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.524459, eta -1.71159, phi 2.79
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.64599, eta 0.971749, phi 3.0162
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.974785, eta 1.33709, phi 2.95983
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.51485, eta -0.776457, phi -3.10871
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.35934, eta 2.13463, phi -3.01519
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 3.06445, eta 2.03697, phi -2.81077
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 5.16441, eta 2.21879, phi -2.81147
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 4.05258, eta 2.21907, phi -2.80655
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 3.12835, eta 2.21892, phi -2.80052
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 3.12303, eta 2.2192, phi -2.79983
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.759755, eta 2.17686, phi -2.74634
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.26121, eta 2.35794, phi -2.63188
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.26674, eta 2.36072, phi -1.3094
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 1.17166, eta 2.3605, phi -1.31388
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.421029, eta 2.10975, phi -0.794121
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 14.4153, eta 2.35234, phi 1.90233
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.401855, eta 2.30956, phi 2.57967
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.42947, eta -1.95369, phi 2.13052
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 0.41498, eta -2.06812, phi 2.25551
+	   Collection: hltPixelCandsForHighMult::HLT
+	   Type IDs:    91
+	   Filters:     hlt1HighMult110 hlt1HighMult135 hlt1HighMult160 hlt1HighMult60 hlt1HighMult85
+	   Paths (0/0):    
+	Trigger object:  pt 67.2412, eta 1.22427, phi 0.0491377
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85 86
+	   Filters:     hlt2CaloJet40 hlt4CaloJet30 hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltSingleCaloJet40ForHFJECBase hltSingleCaloJet50ForHFJECBase hltSingleCaloJet60ForHFJECBase hltSusyPreBtagJetFilter hltVBFFilterDisplacedJets
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 65.5161, eta 0.915618, phi 3.05893
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85 86
+	   Filters:     hlt2CaloJet40 hlt4CaloJet30 hltSingleCaloJet12ForHFJECBase hltSingleCaloJet40ForHFJECBase hltSingleCaloJet50ForHFJECBase hltSingleCaloJet60ForHFJECBase hltSusyPreBtagJetFilter
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 55.0783, eta -2.42095, phi 0.0234925
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85 86
+	   Filters:     hlt2CaloJet40 hlt4CaloJet30 hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltSingleCaloJet40ForHFJECBase hltSingleCaloJet50ForHFJECBase hltSusyPreBtagJetFilter hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 43.7001, eta -2.68015, phi 3.06342
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85
+	   Filters:     hlt2CaloJet40 hlt4CaloJet30 hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltSingleCaloJet40ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 35.2347, eta 1.35243, phi -0.939171
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85 86
+	   Filters:     hlt4CaloJet30 hltSingleCaloJet12ForHFJECBase hltSusyPreBtagJetFilter
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 32.6092, eta 0.463664, phi 2.40795
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85 86
+	   Filters:     hlt4CaloJet30 hltSingleCaloJet12ForHFJECBase hltSusyPreBtagJetFilter
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 32.5153, eta 3.0533, phi -1.80491
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 31.7062, eta 3.15267, phi 2.76735
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 31.0544, eta 3.37372, phi -1.09025
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 30.7045, eta -2.96948, phi 1.7622
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    0 85
+	   Filters:     hlt4CaloJet30 hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 29.6204, eta 4.18663, phi -2.60518
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 29.4315, eta 3.09075, phi -0.320167
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 29.4154, eta -2.981, phi 1.07931
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 27.84, eta -3.34426, phi -0.127239
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 26.5877, eta -3.12496, phi -2.61849
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 26.1757, eta 3.56732, phi -3.0537
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 26.0217, eta -2.27736, phi -1.04284
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 25.2495, eta 1.3039, phi 0.666153
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 25.0709, eta 3.86624, phi -1.87754
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 25.0592, eta 4.52287, phi 1.42126
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 24.6942, eta 3.63314, phi 2.26612
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 24.165, eta -1.7265, phi 2.21629
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 23.863, eta -3.65782, phi 1.81588
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 23.8549, eta 2.89972, phi 1.73886
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 22.3533, eta -1.29222, phi -0.225845
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 22.0365, eta 2.10426, phi -3.01925
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 21.7058, eta -2.56326, phi 2.43512
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 21.1321, eta 3.32706, phi -2.38622
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 20.8398, eta 2.74924, phi 0.468282
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 20.5095, eta 4.04201, phi 0.175659
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 20.4871, eta -2.84338, phi -0.583426
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiCaloJet20MJJ400AllJetsDEta3Filter hltSingleCaloJet12ForHFJECBase hltVBFFilterDisplacedJets hltVBFFilterDisplacedJetsTight
+	   Paths (3/2):       HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 20.1547, eta 1.65194, phi -0.298042
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 19.6584, eta -3.95084, phi 2.98359
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 19.6133, eta 2.0814, phi -1.44065
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 19.5752, eta 2.8284, phi -2.7811
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 19.3336, eta 2.42111, phi -2.28389
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 18.5765, eta -3.01789, phi 0.450284
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 18.2916, eta 1.13431, phi 1.3777
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 18.2166, eta -0.754676, phi 1.95125
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 17.4919, eta -3.30623, phi 2.42055
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 17.1336, eta -4.11062, phi -1.58488
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 16.6192, eta 4.294, phi 0.721849
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 16.4068, eta -2.76621, phi -1.46468
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 15.7834, eta -4.02471, phi -0.496022
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 15.6035, eta 3.49779, phi 0.570622
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 15.1546, eta -2.63129, phi -2.08745
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 15.068, eta 0.221619, phi -1.32739
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 14.7348, eta -2.40544, phi 0.641503
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 14.6266, eta -1.13772, phi -2.65178
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 14.5628, eta 3.89002, phi -1.37597
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 14.522, eta -2.16784, phi -2.98952
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 14.0272, eta -0.476844, phi -2.98966
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 12.9722, eta 3.70458, phi -0.209011
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 12.7702, eta -1.53994, phi 0.39598
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 12.7614, eta -1.83883, phi 1.6938
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 12.7464, eta -0.270626, phi 1.09488
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 12.2833, eta -1.49323, phi -0.964948
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 12.0972, eta 4.1326, phi 2.97846
+	   Collection: hltAK4CaloJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet12ForHFJECBase
+	   Paths (1/0):       HLT_DiPFJetAve30_HFJEC_v1(*,3)
+	Trigger object:  pt 67.2412, eta 1.22427, phi 0.0491377
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltCaloJetFilterSixC35 hltQuadCentralJet45 hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleAK4CaloJet40 hltSingleAK4CaloJet50 hltSingleCaloJet10 hltSingleCaloJet40 hltSingleCaloJet50
+	   Paths (6/4):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_AK4CaloJet40_v1(L,3)   HLT_AK4CaloJet50_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 65.5161, eta 0.915618, phi 3.05893
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltCaloJetFilterSixC35 hltQuadCentralJet45 hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleAK4CaloJet40 hltSingleAK4CaloJet50 hltSingleCaloJet10 hltSingleCaloJet40 hltSingleCaloJet50
+	   Paths (6/4):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_AK4CaloJet40_v1(L,3)   HLT_AK4CaloJet50_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 55.0783, eta -2.42095, phi 0.0234925
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltCaloJetFilterSixC35 hltQuadCentralJet45 hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleAK4CaloJet40 hltSingleAK4CaloJet50 hltSingleCaloJet10 hltSingleCaloJet40 hltSingleCaloJet50
+	   Paths (6/4):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_AK4CaloJet40_v1(L,3)   HLT_AK4CaloJet50_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 43.7001, eta -2.68015, phi 3.06342
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleAK4CaloJet40 hltSingleCaloJet10 hltSingleCaloJet40
+	   Paths (5/3):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_AK4CaloJet40_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 35.2347, eta 1.35243, phi -0.939171
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltCaloJetFilterSixC35 hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleCaloJet10
+	   Paths (4/2):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 32.6092, eta 0.463664, phi 2.40795
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleCaloJet10
+	   Paths (4/2):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 32.5153, eta 3.0533, phi -1.80491
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleCaloJet10
+	   Paths (4/2):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 31.7062, eta 3.15267, phi 2.76735
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleCaloJet10
+	   Paths (4/2):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 31.0544, eta 3.37372, phi -1.09025
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleCaloJet10
+	   Paths (4/2):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 30.7045, eta -2.96948, phi 1.7622
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleAK4CaloJet30 hltSingleCaloJet10
+	   Paths (4/2):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_AK4CaloJet30_v1(L,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 29.6204, eta 4.18663, phi -2.60518
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 29.4315, eta 3.09075, phi -0.320167
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 29.4154, eta -2.981, phi 1.07931
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 27.84, eta -3.34426, phi -0.127239
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 26.5877, eta -3.12496, phi -2.61849
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 26.1757, eta 3.56732, phi -3.0537
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 26.0217, eta -2.27736, phi -1.04284
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 25.2495, eta 1.3039, phi 0.666153
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 86 85
+	   Filters:     hltCaloJetCollection20Filter hltCaloJetFilterSixC25 hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 25.0709, eta 3.86624, phi -1.87754
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 25.0592, eta 4.52287, phi 1.42126
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 24.6942, eta 3.63314, phi 2.26612
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 24.165, eta -1.7265, phi 2.21629
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 23.863, eta -3.65782, phi 1.81588
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 23.8549, eta 2.89972, phi 1.73886
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 22.3533, eta -1.29222, phi -0.225845
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 22.0365, eta 2.10426, phi -3.01925
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 21.7058, eta -2.56326, phi 2.43512
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 21.1321, eta 3.32706, phi -2.38622
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 20.8398, eta 2.74924, phi 0.468282
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 20.5095, eta 4.04201, phi 0.175659
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 20.4871, eta -2.84338, phi -0.583426
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 20.1547, eta 1.65194, phi -0.298042
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    0 85
+	   Filters:     hltCaloJetCollection20Filter hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (3/1):       HLT_AK4CaloJetsForMC_v1(L,3)   HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 19.6584, eta -3.95084, phi 2.98359
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 19.6133, eta 2.0814, phi -1.44065
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 19.5752, eta 2.8284, phi -2.7811
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 19.3336, eta 2.42111, phi -2.28389
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 18.5765, eta -3.01789, phi 0.450284
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 18.2916, eta 1.13431, phi 1.3777
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 18.2166, eta -0.754676, phi 1.95125
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 17.4919, eta -3.30623, phi 2.42055
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 17.1336, eta -4.11062, phi -1.58488
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 16.6192, eta 4.294, phi 0.721849
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 16.4068, eta -2.76621, phi -1.46468
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 15.7834, eta -4.02471, phi -0.496022
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 15.6035, eta 3.49779, phi 0.570622
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 15.1546, eta -2.63129, phi -2.08745
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 15.068, eta 0.221619, phi -1.32739
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4CaloJet15 hltSingleCaloJet10
+	   Paths (2/0):       HLT_AK4PFJet30_v1(*,3)   HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 14.7348, eta -2.40544, phi 0.641503
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 14.6266, eta -1.13772, phi -2.65178
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 14.5628, eta 3.89002, phi -1.37597
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 14.522, eta -2.16784, phi -2.98952
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 14.0272, eta -0.476844, phi -2.98966
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 12.9722, eta 3.70458, phi -0.209011
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 12.7702, eta -1.53994, phi 0.39598
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 12.7614, eta -1.83883, phi 1.6938
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 12.7464, eta -0.270626, phi 1.09488
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 12.2833, eta -1.49323, phi -0.964948
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 12.0972, eta 4.1326, phi 2.97846
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.7224, eta 2.39041, phi 1.32296
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.3928, eta 0.351139, phi 1.34057
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.3912, eta 2.57215, phi 2.89744
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.3201, eta 1.138, phi -0.458404
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.2801, eta 3.99622, phi -0.788902
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.2534, eta -1.3323, phi -3.12409
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 11.1886, eta 1.08719, phi 2.00115
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 10.7732, eta -4.58406, phi 3.00397
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 10.7399, eta -4.20491, phi 1.65835
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 10.4199, eta -4.38709, phi -2.69366
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 10.0326, eta -3.66245, phi 1.12088
+	   Collection: hltAK4CaloJetsCorrectedIDPassed::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCaloJet10
+	   Paths (1/0):       HLT_PFJet40_v1(*,3)
+	Trigger object:  pt 67.2412, eta 1.22427, phi 0.0491377
+	   Collection: hltEmFraction0p01To0p99CaloJetSelector::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleCentralCaloJetpt40
+	   Paths (0/0):    
+	Trigger object:  pt 41.8392, eta 0.911887, phi 3.05176
+	   Collection: hltL2TauJetsIso::HLT
+	   Type IDs:    84
+	   Filters:     hltDoubleL2IsoTau35eta2p2
+	   Paths (0/0):    
+	Trigger object:  pt 41.8392, eta 0.911887, phi 3.05176
+	   Collection: hltL2TauJetsL1TauAndL1CenJetSeeded::HLT
+	   Type IDs:    84
+	   Filters:     hltDoubleL2Tau35eta2p2 hltSingleL2Tau35eta2p2
+	   Paths (0/0):    
+	Trigger object:  pt 36.3698, eta 1.20006, phi 0.0416481
+	   Collection: hltL2TauJetsL1TauAndL1CenJetSeeded::HLT
+	   Type IDs:    84
+	   Filters:     hltDoubleL2Tau35eta2p2 hltSingleL2Tau35eta2p2
+	   Paths (0/0):    
+	Trigger object:  pt 41.8392, eta 0.911887, phi 3.05176
+	   Collection: hltL2TausForPixelIsolation::HLT
+	   Type IDs:    84
+	   Filters:     hltL2TauIsoFilter
+	   Paths (0/0):    
+	Trigger object:  pt 67.2412, eta 1.22427, phi 0.0491377
+	   Collection: hltSingleCentralCaloJetpt40CollectionProducer::HLT
+	   Type IDs:    85
+	   Filters:     hltOnePromptHLTL3DisplacedDijetFullTracksHLTCaloJetTagFilterFromVBF
+	   Paths (0/0):    
+	Trigger object:  pt 46.8415, eta 0, phi 1.69774
+	   Collection: hltAK8HtMhtForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltAK8CaloHTOpenFilter
+	   Paths (1/1):       HLT_AK8CaloHTForMC_v1(L,3)
+	Trigger object:  pt 243.716, eta 0, phi 0
+	   Collection: hltAK8HtMhtForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltAK8CaloHTOpenFilter
+	   Paths (1/1):       HLT_AK8CaloHTForMC_v1(L,3)
+	Trigger object:  pt 25.7514, eta 0, phi -0.208918
+	   Collection: hltAK8PFHTForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltAK8PFHTOpenFilter
+	   Paths (1/1):       HLT_AK8PFHTForMC_v1(L,3)
+	Trigger object:  pt 97.9685, eta 0, phi 0
+	   Collection: hltAK8PFHTForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltAK8PFHTOpenFilter
+	   Paths (1/1):       HLT_AK8PFHTForMC_v1(L,3)
+	Trigger object:  pt 86.545, eta 0, phi 3.10147
+	   Collection: hltHtMhtCaloJetsSixC25::HLT
+	   Type IDs:    90
+	   Filters:     hltCaloSixJet25HT300
+	   Paths (0/0):    
+	Trigger object:  pt 306.951, eta 0, phi 0
+	   Collection: hltHtMhtCaloJetsSixC25::HLT
+	   Type IDs:    89
+	   Filters:     hltCaloSixJet25HT300
+	   Paths (0/0):    
+	Trigger object:  pt 30.0248, eta 0, phi -1.02416
+	   Collection: hltHtMhtEcal::HLT
+	   Type IDs:    90
+	   Filters:     hltHtEcal800
+	   Paths (0/0):    
+	Trigger object:  pt 159.269, eta 0, phi 0
+	   Collection: hltHtMhtEcal::HLT
+	   Type IDs:    89
+	   Filters:     hltHtEcal800
+	   Paths (0/0):    
+	Trigger object:  pt 39.5458, eta 0, phi -1.7905
+	   Collection: hltHtMhtForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltCaloHTOpenFilter hltMhtFilter
+	   Paths (2/2):       HLT_CaloHTForMC_v1(L,3)   HLT_CaloMHTForMC_v1(L,3)
+	Trigger object:  pt 330.96, eta 0, phi 0
+	   Collection: hltHtMhtForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltCaloHTOpenFilter
+	   Paths (1/1):       HLT_CaloHTForMC_v1(L,3)
+	Trigger object:  pt 36.3165, eta 0, phi 0.0595408
+	   Collection: hltPFHT::HLT
+	   Type IDs:    90
+	   Filters:     hltPFHT300 hltPFHT400 hltPFHT600
+	   Paths (0/0):    
+	Trigger object:  pt 131.734, eta 0, phi 0
+	   Collection: hltPFHT::HLT
+	   Type IDs:    89
+	   Filters:     hltPFHT300 hltPFHT400 hltPFHT600
+	   Paths (0/0):    
+	Trigger object:  pt 6.28884, eta 0, phi -1.66944
+	   Collection: hltPFHTForMC::HLT
+	   Type IDs:    90
+	   Filters:     hltPFHTOpenFilter hltPFMHTOpenFilter
+	   Paths (2/2):       HLT_PFHTForMC_v1(L,3)   HLT_PFMHTForMC_v1(L,3)
+	Trigger object:  pt 131.734, eta 0, phi 0
+	   Collection: hltPFHTForMC::HLT
+	   Type IDs:    89
+	   Filters:     hltPFHTOpenFilter
+	   Paths (1/1):       HLT_PFHTForMC_v1(L,3)
+	Trigger object:  pt 36.3165, eta 0, phi 0.0595408
+	   Collection: hltPFHTJet30::HLT
+	   Type IDs:    90
+	   Filters:     hltPFHT200Jet30
+	   Paths (0/0):    
+	Trigger object:  pt 131.734, eta 0, phi 0
+	   Collection: hltPFHTJet30::HLT
+	   Type IDs:    89
+	   Filters:     hltPFHT200Jet30
+	   Paths (0/0):    
+	Trigger object:  pt 38.4656, eta 0, phi -0.076612
+	   Collection: hltPFMETProducer::HLT
+	   Type IDs:    90
+	   Filters:     hltPFMET40Filter hltPFMETOpenFilter
+	   Paths (1/1):       HLT_PFMETForMC_v1(L,3)
+	Trigger object:  pt 966.3, eta 0, phi 6.69105e-07
+	   Collection: hltRsqMR240Rsq0p0196MR100Calo::HLT
+	   Type IDs:    87
+	   Filters:     hltRsqMR240Rsq0p0196MR100Calo
+	   Paths (0/0):    
+	Trigger object:  pt 34.8351, eta 0, phi -0.0228574
+	   Collection: hltMet::HLT
+	   Type IDs:    0
+	   Filters:     hltCaloMETOpenFilter
+	   Paths (1/1):       HLT_CaloMETForMC_v1(L,3)
+	Trigger object:  pt 34.752, eta 0, phi -0.0205384
+	   Collection: hltMetCleanUsingJetID::HLT
+	   Type IDs:    87
+	   Filters:     hltMETCleanUsingJetIDOpenFilter
+	   Paths (1/1):       HLT_CaloMETCleanedForMC_v1(L,3)
+	Trigger object:  pt 42, eta 0.8695, phi -3.14159
+	   Collection: hltL1extraParticles:Isolated:HLT
+	   Type IDs:    -83
+	   Filters:     hltL1SingleEG5orEG10orEG20 hltL1sHcalNZS hltL1sHcalPhiSym hltL1sL1DoubleEG1510 hltL1sL1DoubleEG2210 hltL1sL1DoubleEG6HTT150orL1HTT175 hltL1sL1EG25erHTT125 hltL1sL1SingleEG10 hltL1sL1SingleEG10ORL1SingleEG5 hltL1sL1SingleEG20 hltL1sL1SingleEG25 hltL1sL1SingleEG25ORL1DoubleEG1510 hltL1sL1SingleEG25ORL1SingleEG30 hltL1sL1SingleEG25ORL1SingleEG40 hltL1sL1SingleEG30 hltL1sL1SingleEG40 hltL1sL1SingleEG40ORL1SingleEG35 hltL1sL1SingleEG40ORL1SingleEG35ORL1DoubleEG2210ORL1DoubleEG1510 hltL1sL1SingleEG40ORL1SingleEG35ORL1DoubleEG2210ORL1DoubleEG1510ORL1DoubleEG2010Iso hltL1sL1SingleEG5 hltL1sL1SingleEG5Open hltL1sL1SingleIsoEG22erOREG25 hltL1sL1SingleIsoEG30erOREG35 hltL1sL1SingleIsoEG30erORL1SingleEG40ORL1DoubleEG2210ORL1DoubleEG1510ORL1DoubleEG2010Iso hltL1sL1TripleEG14108
+	   Paths (44/3):       HLT_L1SingleEG5_OR_EG10_OR_EG20_v1(L,3)   HLT_HcalNZS_v1(L,3)   HLT_HcalPhiSym_v1(L,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(*,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele22_WP75_Gsf_v1(*,3)   HLT_Ele23_WP75_Gsf_v1(*,3)   HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Photon22_v1(*,3)   HLT_Photon22_R9Id90_HE10_IsoM_v1(*,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele25WP60_Ele8_Mass55_v1(*,3)   HLT_Ele25WP60_SC4_Mass55_v1(*,3)   HLT_Ele27_WP85_Gsf_v1(*,3)   HLT_Photon30_v1(*,3)   HLT_Photon30_R9Id90_HE10_IsoM_v1(*,3)   HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PixelSeed_Mass70_v1(*,3)   HLT_Photon36_v1(*,3)   HLT_Photon36_R9Id90_HE10_IsoM_v1(*,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60_v1(*,3)   HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15_v1(*,3)   HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_HISinglePhoton10_v1(*,3)   HLT_HISinglePhoton15_v1(*,3)   HLT_HISinglePhoton20_v1(*,3)   HLT_Ele22_eta2p1_WP75_Gsf_v1(*,3)   HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele27_eta2p1_WP75_Gsf_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_v1(*,3)   HLT_Diphoton28_14_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass50_Eta_1p5_v1(*,3)
+	Trigger object:  pt 37, eta 1.218, phi 0
+	   Collection: hltL1extraParticles:Isolated:HLT
+	   Type IDs:    -83
+	   Filters:     hltL1SingleEG5orEG10orEG20 hltL1sHcalNZS hltL1sHcalPhiSym hltL1sL1DoubleEG1510 hltL1sL1DoubleEG2210 hltL1sL1DoubleEG6HTT150orL1HTT175 hltL1sL1EG25erHTT125 hltL1sL1SingleEG10 hltL1sL1SingleEG10ORL1SingleEG5 hltL1sL1SingleEG20 hltL1sL1SingleEG25 hltL1sL1SingleEG25ORL1DoubleEG1510 hltL1sL1SingleEG25ORL1SingleEG30 hltL1sL1SingleEG25ORL1SingleEG40 hltL1sL1SingleEG30 hltL1sL1SingleEG40ORL1SingleEG35 hltL1sL1SingleEG40ORL1SingleEG35ORL1DoubleEG2210ORL1DoubleEG1510 hltL1sL1SingleEG40ORL1SingleEG35ORL1DoubleEG2210ORL1DoubleEG1510ORL1DoubleEG2010Iso hltL1sL1SingleEG5 hltL1sL1SingleEG5Open hltL1sL1SingleIsoEG22erOREG25 hltL1sL1SingleIsoEG30erOREG35 hltL1sL1SingleIsoEG30erORL1SingleEG40ORL1DoubleEG2210ORL1DoubleEG1510ORL1DoubleEG2010Iso hltL1sL1TripleEG14108
+	   Paths (44/3):       HLT_L1SingleEG5_OR_EG10_OR_EG20_v1(L,3)   HLT_HcalNZS_v1(L,3)   HLT_HcalPhiSym_v1(L,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(*,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele22_WP75_Gsf_v1(*,3)   HLT_Ele23_WP75_Gsf_v1(*,3)   HLT_Photon22_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Photon22_v1(*,3)   HLT_Photon22_R9Id90_HE10_IsoM_v1(*,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele25WP60_Ele8_Mass55_v1(*,3)   HLT_Ele25WP60_SC4_Mass55_v1(*,3)   HLT_Ele27_WP85_Gsf_v1(*,3)   HLT_Photon30_v1(*,3)   HLT_Photon30_R9Id90_HE10_IsoM_v1(*,3)   HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PixelSeed_Mass70_v1(*,3)   HLT_Photon36_v1(*,3)   HLT_Photon36_R9Id90_HE10_IsoM_v1(*,3)   HLT_Photon36_R9Id90_HE10_Iso40_EBOnly_VBF_v1(*,3)   HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60_v1(*,3)   HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15_v1(*,3)   HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_HISinglePhoton10_v1(*,3)   HLT_HISinglePhoton15_v1(*,3)   HLT_HISinglePhoton20_v1(*,3)   HLT_Ele22_eta2p1_WP75_Gsf_v1(*,3)   HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele27_eta2p1_WP75_Gsf_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_v1(*,3)   HLT_Diphoton28_14_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass50_Eta_1p5_v1(*,3)
+	Trigger object:  pt 14, eta 0.5215, phi 2.44346
+	   Collection: hltL1extraParticles:Isolated:HLT
+	   Type IDs:    -83
+	   Filters:     hltL1SingleEG5orEG10orEG20 hltL1sHcalNZS hltL1sHcalPhiSym hltL1sL1DoubleEG1510 hltL1sL1DoubleEG2210 hltL1sL1DoubleEG6HTT150orL1HTT175 hltL1sL1SingleEG10 hltL1sL1SingleEG10ORL1SingleEG5 hltL1sL1SingleEG25ORL1DoubleEG1510 hltL1sL1SingleEG40ORL1SingleEG35ORL1DoubleEG2210ORL1DoubleEG1510 hltL1sL1SingleEG40ORL1SingleEG35ORL1DoubleEG2210ORL1DoubleEG1510ORL1DoubleEG2010Iso hltL1sL1SingleEG5 hltL1sL1SingleEG5Open hltL1sL1SingleIsoEG30erORL1SingleEG40ORL1DoubleEG2210ORL1DoubleEG1510ORL1DoubleEG2010Iso hltL1sL1TripleEG14108
+	   Paths (21/3):       HLT_L1SingleEG5_OR_EG10_OR_EG20_v1(L,3)   HLT_HcalNZS_v1(L,3)   HLT_HcalPhiSym_v1(L,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(*,3)   HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v1(*,3)   HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(*,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_v1(*,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_Diphoton30_18_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_PixelSeed_Mass70_v1(*,3)   HLT_Photon26_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon16_AND_HE10_R9Id65_Eta2_Mass60_v1(*,3)   HLT_Photon36_R9Id85_OR_CaloId24b40e_Iso50T80L_Photon22_AND_HE10_R9Id65_Eta2_Mass15_v1(*,3)   HLT_Diphoton30_18_R9Id85_AND_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Solid_Mass30_v1(*,3)   HLT_HISinglePhoton10_v1(*,3)   HLT_HISinglePhoton15_v1(*,3)   HLT_HISinglePhoton20_v1(*,3)   HLT_Diphoton28_14_R9Id85_OR_Iso50T80LCaloId24b40e_AND_HE10P0_R9Id50b80e_Mass50_Eta_1p5_v1(*,3)
+	Trigger object:  pt 5, eta -2.586, phi -3.14159
+	   Collection: hltL1extraParticles:Isolated:HLT
+	   Type IDs:    -83
+	   Filters:     hltL1SingleEG5orEG10orEG20 hltL1sHcalNZS hltL1sHcalPhiSym hltL1sL1SingleEG10ORL1SingleEG5 hltL1sL1SingleEG5 hltL1sL1SingleEG5Open
+	   Paths (7/3):       HLT_L1SingleEG5_OR_EG10_OR_EG20_v1(L,3)   HLT_HcalNZS_v1(L,3)   HLT_HcalPhiSym_v1(L,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(*,3)   HLT_HISinglePhoton10_v1(*,3)   HLT_HISinglePhoton15_v1(*,3)   HLT_HISinglePhoton20_v1(*,3)
+	Trigger object:  pt 88, eta 1.218, phi 0
+	   Collection: hltL1extraParticles:Central:HLT
+	   Type IDs:    -84
+	   Filters:     hltL1sDoubleTauJet44erORDoubleJetC72 hltL1sHcalNZS hltL1sL1HTT125ORHTT150ORHTT175ORSingleJet128ORSingleJet176ORSingleJet200ORDoubleJetC84ORDoubleJetC100ORQuadJetC40ORQuadJetC60 hltL1sL1QuadJetC36TauJet52 hltL1sL1SingleJet36 hltL1sL1SingleJet52 hltL1sL1SingleJet68
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 64, eta -2.586, phi 0
+	   Collection: hltL1extraParticles:Central:HLT
+	   Type IDs:    -84
+	   Filters:     hltL1sHcalNZS hltL1sL1HTT125ORHTT150ORHTT175ORSingleJet128ORSingleJet176ORSingleJet200ORDoubleJetC84ORDoubleJetC100ORQuadJetC40ORQuadJetC60 hltL1sL1QuadJetC36TauJet52 hltL1sL1SingleJet36 hltL1sL1SingleJet52
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 40, eta -2.586, phi -3.14159
+	   Collection: hltL1extraParticles:Central:HLT
+	   Type IDs:    -84
+	   Filters:     hltL1sHcalNZS hltL1sL1HTT125ORHTT150ORHTT175ORSingleJet128ORSingleJet176ORSingleJet200ORDoubleJetC84ORDoubleJetC100ORQuadJetC40ORQuadJetC60 hltL1sL1QuadJetC36TauJet52 hltL1sL1SingleJet36
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 32, eta 1.218, phi -1.0472
+	   Collection: hltL1extraParticles:Central:HLT
+	   Type IDs:    -84
+	   Filters:     hltL1sHcalNZS
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 64, eta 4.25, phi -2.79253
+	   Collection: hltL1extraParticles:Forward:HLT
+	   Type IDs:    -85
+	   Filters:     hltL1sHcalNZS hltL1sL1SingleJet36 hltL1sL1SingleJet52
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 56, eta 3.25, phi -1.74533
+	   Collection: hltL1extraParticles:Forward:HLT
+	   Type IDs:    -85
+	   Filters:     hltL1sHcalNZS hltL1sL1SingleJet36 hltL1sL1SingleJet52
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 52, eta -3.75, phi 1.74533
+	   Collection: hltL1extraParticles:Forward:HLT
+	   Type IDs:    -85
+	   Filters:     hltL1sHcalNZS hltL1sL1SingleJet36 hltL1sL1SingleJet52
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 52, eta 3.75, phi 2.44346
+	   Collection: hltL1extraParticles:Forward:HLT
+	   Type IDs:    -85
+	   Filters:     hltL1sHcalNZS hltL1sL1SingleJet36 hltL1sL1SingleJet52
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 76, eta 0.8695, phi -3.14159
+	   Collection: hltL1extraParticles:Tau:HLT
+	   Type IDs:    -86
+	   Filters:     hltL1sDoubleTauJet44erORDoubleJetC72 hltL1sHcalNZS hltL1sL1HTT125ORHTT150ORHTT175ORSingleJet128ORSingleJet176ORSingleJet200ORDoubleJetC84ORDoubleJetC100ORQuadJetC40ORQuadJetC60 hltL1sL1QuadJetC36TauJet52 hltL1sL1SingleJet36 hltL1sL1SingleJet52 hltL1sL1SingleJet68
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 40, eta 0.5215, phi 2.44346
+	   Collection: hltL1extraParticles:Tau:HLT
+	   Type IDs:    -86
+	   Filters:     hltL1sHcalNZS hltL1sL1HTT125ORHTT150ORHTT175ORSingleJet128ORSingleJet176ORSingleJet200ORDoubleJetC84ORDoubleJetC100ORQuadJetC40ORQuadJetC60 hltL1sL1QuadJetC36TauJet52 hltL1sL1SingleJet36
+	   Paths (1/1):       HLT_HcalNZS_v1(L,3)
+	Trigger object:  pt 189, eta 0, phi 0
+	   Collection: hltL1extraParticles:MHT:HLT
+	   Type IDs:    -89
+	   Filters:     hltL1sHTT175 hltL1sL1DoubleEG6HTT150orL1HTT175 hltL1sL1EG25erHTT125 hltL1sL1HTT125ORHTT150ORHTT175ETM60ORETM70 hltL1sL1HTT125ORHTT150ORHTT175ORSingleJet128ORSingleJet176ORSingleJet200ORDoubleJetC84ORDoubleJetC100ORQuadJetC40ORQuadJetC60 hltL1sL1HTT125ORL1HTT150ORL1HTT175 hltL1sL1HTT150ORHTT175 hltL1sL1HTT150ORHTT175ORETM70 hltL1sL1HTT150ORHTT175ORHTT200 hltL1sL1HTT150ORHTT175ORHTT200ORHTT125 hltL1sL1HTT175 hltL1sL1HTT175ORSingleJet200ORDoubleJetC100ORQuadJetC60 hltL1sL1Mu6HTT150ORL1Mu8HTT125ORL1HTT125ORL1HTT150ORL1HTT175 hltL1sL1Mu6HTT150orL1Mu8HTT125orL1HTT175 hltL1sL1Quad60ORHTT175 hltL1sL1TripleJet927664ORHTT175
+	   Paths (1/1):       HLT_HT200_v1(L,3)
+	Trigger object:  pt 44.425, eta 1.22094, phi 0.0643377
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85 86
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC hltDiPFJetAve60ForHFJEC hltDiPFJetAve80ForHFJEC hltDoublePFJet15 hltEle12NoIsoPFJet30EleCleaned hltEle12PFJet30EleCleaned hltEle18NoIsoPFJet30EleCleaned hltEle18PFJet30EleCleaned hltEle23NoIsoPFJet30EleCleaned hltEle23PFJet30EleCleaned hltEle27TriCentralPFJet30EleCleaned hltEle32TriCentralPFJet30EleCleaned hltEle33NoIsoPFJet30EleCleaned hltEle33PFJet30EleCleaned hltEle8PFJet30EleCleaned hltJetFilterSingleTopEle27 hltJetFilterSingleTopEle32 hltPFJetFilterSixC30 hltPFJetForBtagSelector hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched hltSinglePFJet25NoCaloMatched hltSinglePFJet40NoCaloMatched
+	   Paths (23/21):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)   HLT_PFJet25_NoCaloMatched_v1(L,3)   HLT_PFJet40_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 44.4061, eta -2.44986, phi -0.0286506
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85 86
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForCentralJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve35ForCentralJEC hltDoublePFJet15 hltDoublePFJet15FBEta2 hltEle12NoIsoPFJet30EleCleaned hltEle12PFJet30EleCleaned hltEle18NoIsoPFJet30EleCleaned hltEle18PFJet30EleCleaned hltEle23NoIsoPFJet30EleCleaned hltEle23PFJet30EleCleaned hltEle27TriCentralPFJet30EleCleaned hltEle32TriCentralPFJet30EleCleaned hltEle33NoIsoPFJet30EleCleaned hltEle33PFJet30EleCleaned hltEle8PFJet30EleCleaned hltJetFilterSingleTopEle27 hltJetFilterSingleTopEle32 hltPFJetFilterSixC30 hltPFJetForBtagSelector hltSinglePFJet15FwdEta2 hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched hltSinglePFJet25FwdEta2 hltSinglePFJet25NoCaloMatched hltSinglePFJet40FwdEta2 hltSinglePFJet40NoCaloMatched
+	   Paths (24/22):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_DiPFJet15_FBEta2_NoCaloMatched_v1(L,3)   HLT_Ele12_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele18_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele18_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele33_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele33_CaloIdL_TrackIdL_IsoVL_PFJet30_v1(L,3)   HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v1(L,3)   HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_PFJet15_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)   HLT_PFJet25_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet25_NoCaloMatched_v1(L,3)   HLT_PFJet40_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet40_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 42.9031, eta 0.89598, phi 3.06214
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85 86
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC hltDiPFJetAve60ForHFJEC hltDiPFJetAve80ForHFJEC hltDoublePFJet15 hltPFJetFilterSixC30 hltPFJetForBtagSelector hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched hltSinglePFJet25NoCaloMatched hltSinglePFJet40NoCaloMatched
+	   Paths (14/12):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(*,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)   HLT_PFJet25_NoCaloMatched_v1(L,3)   HLT_PFJet40_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 25.9794, eta -1.7895, phi 2.29731
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForCentralJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve35ForCentralJEC hltDoublePFJet15 hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched hltSinglePFJet25NoCaloMatched
+	   Paths (8/8):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)   HLT_PFJet25_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 25.7014, eta 1.2897, phi -1.04375
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC hltDoublePFJet15 hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched hltSinglePFJet25NoCaloMatched
+	   Paths (11/11):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)   HLT_PFJet25_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 20.6921, eta -2.35716, phi 3.12427
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForCentralJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve35ForCentralJEC hltDoublePFJet15 hltDoublePFJet15FBEta2 hltSinglePFJet15FwdEta2 hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched
+	   Paths (9/9):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_DiPFJet15_FBEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 20.6498, eta -2.89427, phi 2.96121
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK4PFJetCollection20Filter hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC hltDoublePFJet15 hltDoublePFJet15FBEta2 hltSinglePFJet15FwdEta2 hltSinglePFJet15NoCaloMatched hltSinglePFJet20NoCaloMatched
+	   Paths (9/9):       HLT_AK4PFJetsForMC_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_DiPFJet15_FBEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)   HLT_PFJet20_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 15.9184, eta 4.21801, phi -2.6056
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC hltDoublePFJet15 hltDoublePFJet15FBEta2 hltDoublePFJet15FBEta3 hltSinglePFJet15FwdEta2 hltSinglePFJet15FwdEta3 hltSinglePFJet15NoCaloMatched
+	   Paths (8/8):       HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_DiPFJet15_FBEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta3_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 15.461, eta 3.56444, phi -3.04925
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC hltDoublePFJet15 hltDoublePFJet15FBEta2 hltDoublePFJet15FBEta3 hltSinglePFJet15FwdEta2 hltSinglePFJet15FwdEta3 hltSinglePFJet15NoCaloMatched
+	   Paths (8/8):       HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJet15_NoCaloMatched_v1(L,3)   HLT_DiPFJet15_FBEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta2_NoCaloMatched_v1(L,3)   HLT_PFJet15_FwdEta3_NoCaloMatched_v1(L,3)   HLT_PFJet15_NoCaloMatched_v1(L,3)
+	Trigger object:  pt 13.5381, eta -3.37775, phi -0.125565
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC
+	   Paths (3/3):       HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)
+	Trigger object:  pt 13.3776, eta 2.81795, phi -1.81893
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC
+	   Paths (3/3):       HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)
+	Trigger object:  pt 12.0537, eta 1.25365, phi 0.644305
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC
+	   Paths (6/6):       HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)
+	Trigger object:  pt 11.7266, eta 0.192475, phi 0.737255
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC
+	   Paths (6/6):       HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)
+	Trigger object:  pt 11.184, eta 1.37792, phi -0.375261
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC
+	   Paths (6/6):       HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)
+	Trigger object:  pt 10.9116, eta 0.465673, phi 2.40625
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForCentralJEC hltDiPFJetAve35ForHFJEC
+	   Paths (6/6):       HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)
+	Trigger object:  pt 10.6319, eta 3.03985, phi 2.59727
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC
+	   Paths (3/3):       HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)
+	Trigger object:  pt 10.357, eta 2.36922, phi -2.5034
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForCentralJEC hltDiPFJetAve25ForCentralJEC hltDiPFJetAve35ForCentralJEC
+	   Paths (3/3):       HLT_DiPFJetAve15_Central_v1(L,3)   HLT_DiPFJetAve25_Central_v1(L,3)   HLT_DiPFJetAve35_Central_v1(L,3)
+	Trigger object:  pt 10.0126, eta 3.57431, phi 2.40004
+	   Collection: hltAK4PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltDiPFJetAve15ForHFJEC hltDiPFJetAve25ForHFJEC hltDiPFJetAve30ForHFJEC hltDiPFJetAve35ForHFJEC
+	   Paths (3/3):       HLT_DiPFJetAve15_HFJEC_v1(L,3)   HLT_DiPFJetAve25_HFJEC_v1(L,3)   HLT_DiPFJetAve30_HFJEC_v1(L,3)
+	Trigger object:  pt 44.425, eta 1.22094, phi 0.0643377
+	   Collection: hltAK4PFJetsCorrectedMatchedToCaloJets15::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4PFJet30
+	   Paths (1/1):       HLT_AK4PFJet30_v1(L,3)
+	Trigger object:  pt 42.9031, eta 0.89598, phi 3.06214
+	   Collection: hltAK4PFJetsCorrectedMatchedToCaloJets15::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4PFJet30
+	   Paths (1/1):       HLT_AK4PFJet30_v1(L,3)
+	Trigger object:  pt 44.4061, eta -2.44986, phi -0.0286506
+	   Collection: hltAK4PFJetsCorrectedMatchedToCaloJets15::HLT
+	   Type IDs:    85
+	   Filters:     hltSingleAK4PFJet30
+	   Paths (1/1):       HLT_AK4PFJet30_v1(L,3)
+	Trigger object:  pt 55.9149, eta 1.35001, phi 0.098617
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 42.0535, eta -2.87336, phi -3.02879
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 35.3314, eta -1.99749, phi 2.31577
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 32.5666, eta 0.971906, phi 3.05688
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 28.7381, eta -2.53589, phi 0.0712766
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 28.5809, eta 2.59577, phi -2.75369
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 27.9403, eta 1.37225, phi -1.19003
+	   Collection: hltAK8PFJetsCorrected::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8PFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8PFJetsForMC_v1(L,3)
+	Trigger object:  pt 65.3424, eta -2.87791, phi -3.05853
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 51.3557, eta 2.98921, phi -1.44871
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 62.3661, eta -2.53246, phi 0.0970255
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 63.2168, eta 2.60492, phi -2.76447
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 60.7316, eta 1.29516, phi 0.0803118
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 51.3881, eta -2.71383, phi -1.08676
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 51.1695, eta -1.96279, phi 2.29532
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 44.4589, eta 2.80375, phi 1.67193
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 48.6144, eta 0.921767, phi 3.02928
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 29.1883, eta 1.38613, phi -1.16188
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 33.0045, eta 0.549615, phi 2.13162
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 21.707, eta -0.74847, phi 1.4443
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 27.6332, eta -0.971749, phi -3.08463
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 22.7932, eta -1.40236, phi -0.188551
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 26.0295, eta 0.236903, phi 0.731479
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 24.1079, eta 0.0137461, phi -0.922378
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 26.4854, eta 2.51422, phi 0.56133
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 22.2875, eta 1.51532, phi 1.50696
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 20.2589, eta -2.49954, phi -2.03318
+	   Collection: hltAK8TrimModJets::HLT
+	   Type IDs:    85
+	   Filters:     hltAK8TrimPFJetCollection20Filter
+	   Paths (1/1):       HLT_AK8TrimPFJetsForMC_v1(L,3)
+	Trigger object:  pt 44.425, eta 1.22094, phi 0.0643377
+	   Collection: hltPFJetForBtag::HLT
+	   Type IDs:    86
+	   Filters:     hltCSVFilterSingleTop
+	   Paths (2/2):       HLT_Ele27_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(L,3)   HLT_Ele32_eta2p1_WP75_Gsf_CentralPFJet30_BTagCSV07_v1(L,3)
+	Trigger object:  pt 44.425, eta 1.22094, phi 0.0643377
+	   Collection: hltPFJetsCorrectedMatchedToCaloJets10::HLT
+	   Type IDs:    85
+	   Filters:     hltSinglePFJet40
+	   Paths (1/1):       HLT_PFJet40_v1(L,3)
+	Trigger object:  pt 42.9031, eta 0.89598, phi 3.06214
+	   Collection: hltPFJetsCorrectedMatchedToCaloJets10::HLT
+	   Type IDs:    85
+	   Filters:     hltSinglePFJet40
+	   Paths (1/1):       HLT_PFJet40_v1(L,3)
+	Trigger object:  pt 44.4061, eta -2.44986, phi -0.0286506
+	   Collection: hltPFJetsCorrectedMatchedToCaloJets10::HLT
+	   Type IDs:    85
+	   Filters:     hltSinglePFJet40
+	   Paths (1/1):       HLT_PFJet40_v1(L,3)
+
