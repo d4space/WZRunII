@@ -166,11 +166,28 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
    iEvent.getByToken(triggerBits_, triggerBits);
    iEvent.getByToken(triggerObjects_, triggerObjects);
    const edm::TriggerNames &names = iEvent.triggerNames(*triggerBits);
-   const TString singleMu("HLT_IsoMu20_eta2p1_IterTrk02_v1");
+   //const TString singleMu("HLT_IsoMu20_eta2p1_IterTrk02_v1");
    for (unsigned int i = 0, n = triggerBits->size(); i < n; ++i) {
-       if((const TString)names.triggerName(i)!=singleMu) continue;
-       passSingleMuTrigger_Zmm = triggerBits->accept(i) ? 1 : 0;
-       break;
+     //if((const TString)names.triggerName(i)!=singleMu) continue;
+     //
+     //==================================	
+     //Trigger Wildcard selection
+     //==================================	
+     //
+     //==================================	
+     //Select Triggers starting from "HLT_IsoMu20_v*"
+     //==================================	
+     std::string trig = names.triggerName(i);
+     bool acceptHLT=false;
+     if(trig.find("HLT_IsoMu20_v")!=std::string::npos) acceptHLT=true;
+     if(!acceptHLT) continue;
+     //
+     //==================================	
+     //Check selected triggers
+     //==================================	
+     std::cout<<"Selected Trigger: " <<trig<<std::endl;
+     passSingleMuTrigger_Zmm = triggerBits->accept(i) ? 1 : 0;
+     break;
    }
 
    //
