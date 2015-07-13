@@ -104,7 +104,9 @@ edm::Service<TFileService> fs_Zmm;
 //
 // Declare output ntuple variables
 //
+UInt_t runNum=0, lumiSec=0, evtNum=0;
 Int_t  matchGen_Zmm=0, npv_Zmm=0;
+Int_t  id_1, id_2;
 Float_t genVPdgID_Zmm=0, genVPt_Zmm=0, genVPhi_Zmm=0, genVy_Zmm=0, genVMass_Zmm=0;
 Float_t rawpfmet_Zmm=0, rawpfmetPhi_Zmm=0;
 Float_t type1pfmet_Zmm=0, type1pfmetPhi_Zmm=0;
@@ -112,9 +114,11 @@ Float_t genmet_Zmm=0, genmetPhi_Zmm=0;
 Float_t u1_Zmm=0, u2_Zmm=0;
 Int_t q1_Zmm=0, q2_Zmm=0;
 Float_t pfChIso1_Zmm=0, pfChIso2_Zmm=0;
+Float_t pfNhIso1_Zmm=0, pfNhIso2_Zmm=0;
+Float_t pfPhotonIso1_Zmm=0, pfPhotonIso2_Zmm=0;
 LorentzVector *dilep_Zmm=0, *lep1_Zmm=0, *lep2_Zmm=0;
-Int_t isLooseMuon1_Zmm=0, isSoftMuon1_Zmm=0, isTightMuon1_Zmm=0;
-Int_t isLooseMuon2_Zmm=0, isSoftMuon2_Zmm=0, isTightMuon2_Zmm=0;
+Int_t isLooseMuon1_Zmm=0, isSoftMuon1_Zmm=0, isTightMuon1_Zmm=0, isMediumMuon1_Zmm=0;
+Int_t isLooseMuon2_Zmm=0, isSoftMuon2_Zmm=0, isTightMuon2_Zmm=0, isMediumMuon2_Zmm=0;
 Int_t passSingleMuTrigger_Zmm=0, matchTrigObj1_Zmm=0, matchTrigObj2_Zmm=0;
 
 //
@@ -197,6 +201,7 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
    //      inside the Z window
    //
    Bool_t foundTag = kFALSE;
+   
    for (unsigned int i1=0;i1 < muons->size();i1++) {
      const pat::Muon &tag = (*muons)[i1];
 
@@ -212,9 +217,12 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
 
      q1_Zmm = tag.charge();
      pfChIso1_Zmm = tag.chargedHadronIso();
+     pfNhIso1_Zmm = tag.neutralHadronIso();
+     pfPhotonIso1_Zmm = tag.photonIso();
      isLooseMuon1_Zmm = tag.isLooseMuon() ? 1 : 0;
      isSoftMuon1_Zmm  = tag.isSoftMuon(PV) ? 1 : 0;
      isTightMuon1_Zmm = tag.isTightMuon(PV) ? 1 : 0;
+     isMediumMuon1_Zmm = tag.isMediumMuon() ? 1 : 0;
 
      // Match to a trigger object
      matchTrigObj1_Zmm = 0;
@@ -234,9 +242,12 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
        // Probe lepton information
        q2_Zmm = probe.charge();
        pfChIso2_Zmm = probe.chargedHadronIso();
+       pfNhIso2_Zmm = probe.neutralHadronIso();
+       pfPhotonIso2_Zmm = probe.photonIso();
        isLooseMuon2_Zmm = probe.isLooseMuon() ? 1 : 0;
        isSoftMuon2_Zmm  = probe.isSoftMuon(PV) ? 1 : 0;
        isTightMuon2_Zmm = probe.isTightMuon(PV) ? 1 : 0;
+       isMediumMuon2_Zmm = probe.isMediumMuon() ? 1 : 0;
 
        LorentzVector vProbe(probe.pt(),probe.eta(),probe.phi(),MUON_MASS);
 
@@ -260,16 +271,22 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
        // Perform matching of leptons to generator level leptons
        const reco::GenParticle* gen1 = tag.genParticle();
        const reco::GenParticle* gen2 = probe.genParticle();
+       Int_t id1, id2;
+       Float_t eta1, eta2;
+       Float_t phi1, phi2;
+       Bool_t match1, match2;
        Bool_t hasGenMatch = kFALSE;
        if(gen1!=NULL && gen2!=NULL) {
-         Int_t id1 = gen1->pdgId(), id2 = gen2->pdgId();
-         Float_t eta1 = gen1->eta(), eta2 = gen2->eta();
-         Float_t phi1 = gen1->phi(), phi2 = gen2->phi();
-         Bool_t match1 = ( fabs(id1)==13 && sqrt((tag.eta()-eta1)*(tag.eta()-eta1)+(tag.phi()-phi1)*(tag.phi()-phi1)) < 0.5 );
-         Bool_t match2 = ( fabs(id2)==13 && sqrt((probe.eta()-eta2)*(probe.eta()-eta2)+(probe.phi()-phi2)*(probe.phi()-phi2)) < 0.5 );
+         id1 = gen1->pdgId(), id2 = gen2->pdgId();
+         eta1 = gen1->eta(), eta2 = gen2->eta();
+         phi1 = gen1->phi(), phi2 = gen2->phi();
+         match1 = ( fabs(id1)==13 && sqrt((tag.eta()-eta1)*(tag.eta()-eta1)+(tag.phi()-phi1)*(tag.phi()-phi1)) < 0.5 );
+         match2 = ( fabs(id2)==13 && sqrt((probe.eta()-eta2)*(probe.eta()-eta2)+(probe.phi()-phi2)*(probe.phi()-phi2)) < 0.5 );
          if(match1 && match2) hasGenMatch = kTRUE;
        }
        matchGen_Zmm  = hasGenMatch ? 1 : 0;
+       id_1  = hasGenMatch ? id1 : -999;
+       id_2  = hasGenMatch ? id2 : -999;
 
        // Type-1 corrected PF MET
        edm::Handle<pat::METCollection> mets;
@@ -355,7 +372,12 @@ selectZmm::beginJob()
   //outTree_Zmm = new TTree("Events","Events");
   outTree_Zmm = fs_Zmm->make<TTree>("Events", "Events");
 
+  outTree_Zmm->Branch("runNum",        &runNum,   	   "runNum/i");        // event run number
+  outTree_Zmm->Branch("lumiSec",       &lumiSec,   	   "lumiSec/i");       // event lumi section
+  outTree_Zmm->Branch("evtNum",        &evtNum,   	   "evtNum/i");        // event number
   outTree_Zmm->Branch("matchGen",      &matchGen_Zmm,      "matchGen/I");      // event has both leptons matched to MC Z->ll
+  outTree_Zmm->Branch("id_1",	       &id_1, 	 	   "id_1/I");          // PDF info -- parton ID for parton 1
+  outTree_Zmm->Branch("id_2",	       &id_2, 	 	   "id_2/I");          // PDF info -- parton ID for parton 2
   outTree_Zmm->Branch("npv",           &npv_Zmm,           "npv/I");           // number of vertices
   outTree_Zmm->Branch("genVPt",        &genVPt_Zmm,        "genVPt/F");        // GEN boson pT (signal MC)
   outTree_Zmm->Branch("genVPhi",       &genVPhi_Zmm,       "genVPhi/F");       // GEN boson phi (signal MC)
@@ -372,16 +394,22 @@ selectZmm::beginJob()
   outTree_Zmm->Branch("q1",            &q1_Zmm,            "q1/I");            // tag lepton charge
   outTree_Zmm->Branch("q2",            &q2_Zmm,            "q2/I");            // probe lepton charge
   outTree_Zmm->Branch("pfChIso1",      &pfChIso1_Zmm,      "pfChIso1/F");      // tag lepton charged hadron isolation
+  outTree_Zmm->Branch("pfNhIso1",      &pfNhIso1_Zmm,      "pfNhIso1/F");      // tag lepton neutral hadron isolation
+  outTree_Zmm->Branch("pfPhotonIso1",  &pfPhotonIso1_Zmm,  "pfPhotonIso1/F");  // tag lepton photon isolation
   outTree_Zmm->Branch("pfChIso2",      &pfChIso2_Zmm,      "pfChIso2/F");      // probe lepton charged hadron isolation
+  outTree_Zmm->Branch("pfNhIso2",      &pfNhIso2_Zmm,      "pfNhIso2/F");      // probe lepton neutral hadron isolation
+  outTree_Zmm->Branch("pfPhotonIso2",  &pfPhotonIso2_Zmm,  "pfPhotonIso2/F");  // probe lepton photon isolation
   outTree_Zmm->Branch("dilep","ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &dilep_Zmm); // dilepton 4-vector
   outTree_Zmm->Branch("lep1", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &lep1_Zmm);  // lepton 4-vector (tag lepton)
   outTree_Zmm->Branch("lep2", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &lep2_Zmm);  // lepton 4-vector (probe lepton)
   outTree_Zmm->Branch("isLooseMuon1",  &isLooseMuon1_Zmm, "isLooseMuon1/I");  // tag lepton loose muon ID
   outTree_Zmm->Branch("isSoftMuon1",   &isSoftMuon1_Zmm,  "isSoftMuon1/I");   // tag lepton soft muon ID
   outTree_Zmm->Branch("isTightMuon1",  &isTightMuon1_Zmm, "isTightMuon1/I");  // tag lepton tight muon ID
+  outTree_Zmm->Branch("isMediumMuon1", &isMediumMuon1_Zmm,"isMediumMuon1/I"); // tag lepton medium muon ID
   outTree_Zmm->Branch("isLooseMuon2",  &isLooseMuon2_Zmm, "isLooseMuon2/I");  // probe lepton loose muon ID
   outTree_Zmm->Branch("isSoftMuon2",   &isSoftMuon2_Zmm,  "isSoftMuon2/I");   // probe lepton soft muon ID
   outTree_Zmm->Branch("isTightMuon2",  &isTightMuon2_Zmm, "isTightMuon2/I");  // probe lepton tight muon ID
+  outTree_Zmm->Branch("isMediumMuon2", &isMediumMuon2_Zmm,"isMediumMuon2/I"); // probe lepton medium muon ID
   outTree_Zmm->Branch("passSingleMuTrigger", &passSingleMuTrigger_Zmm, "passSingleMuTrigger/I"); // single muon trigger
   outTree_Zmm->Branch("matchTrigObj1", &matchTrigObj1_Zmm,  "matchTrigObj1/I"); // tag lepton match to trigger object
   outTree_Zmm->Branch("matchTrigObj2", &matchTrigObj2_Zmm,  "matchTrigObj2/I"); // probe lepton match to trigger object
