@@ -128,13 +128,15 @@ Float_t u1=0, u2=0;
 Int_t q1=0, q2=0;
 LorentzVector *dilep=0, *lep1=0, *lep2=0;
 ///// muon specific /////
-Float_t trkIso1=0, trkIso2=0;		// Todo
-Float_t emIso1=0, emIso2=0;		// Todo
-Float_t hadIso1=0, hadIso2=0;		// Todo
+Float_t trkIso1=0, trkIso2=0;		
+Float_t ecalIso1=0, ecalIso2=0;		
+Float_t hcalIso1=0, hcalIso2=0;		
+Float_t caloIso1=0, caloIso2=0;		
+Float_t pfAllpcIso1=0, pfAllpcIso2=0;
 Float_t pfChIso1=0, pfChIso2=0;
 Float_t pfNhIso1=0, pfNhIso2=0;
-Float_t pfPhotonIso1=0, pfPhotonIso2=0;
-Float_t pfCombIso1=0, pfCombIso2=0;	// Todo
+Float_t pfGammaIso1=0, pfGammaIso2=0;
+Float_t pfCombIso1=0, pfCombIso2=0;	
 Float_t d01, dz1, d02, dz2; 		// Todo
 Float_t muNchi21, muNchi22;		// Todo
 UInt_t nPixHits1, nTkLayers1, nPixHits2, nTkLayers2;	// Todo
@@ -223,29 +225,48 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
    //  (2) Pair the tag with a probe muon so that that tag+probe mass is
    //      inside the Z window
    //
+        // From latest MIT Selection code : 
+        // SELECTION PROCEDURE:
+        //  (1) Find a good muon matched to trigger -> this will be the "tag"
+        //  (2) Pair the tag with various probe types which form a tag+probe mass inside
+        //      the Z window and divide candidates into exclusive categories as follows:
+        //      (a) if probe is a good muon matched to trigger                  -> MuMu2HLT category
+        //      (b) if probe is a good muon not matched to trigger              -> MuMu1HLT category
+        //      (c) if probe is a muon failing selection cuts                   -> MuMuNoSel category
+        //      (d) if probe is a standalone muon but not global                -> MuSta category
+        //      (e) if probe is a tracker muon or non-muon track but not global -> MuTrk category
+        ///
    Bool_t foundTag = kFALSE;
    
    for (unsigned int i1=0;i1 < muons->size();i1++) {
      const pat::Muon &tag = (*muons)[i1];
 
      Int_t isLooseMuon = tag.isLooseMuon() ? 1 : 0;
-     if(!isLooseMuon) continue; // lepton selection
+     
+     if(tag.pt() < PT_CUT) 		continue;	// lepton pT cut
+     if(fabs(tag.eta()) > ETA_CUT)	continue;	// lepton |eta| cut
+     if(!isLooseMuon)			continue; 	// lepton selection
 
      foundTag = kTRUE;
 
      // Tag lepton information
      LorentzVector vTag(tag.pt(),tag.eta(),tag.phi(),MUON_MASS);
-
      lep1 = &vTag;
 
      q1 = tag.charge();
+     trkIso1 = tag.trackIso();
+     ecalIso1 = tag.ecalIso();
+     hcalIso1 = tag.hcalIso();
+     caloIso1 = tag.caloIso();
+     pfAllpcIso1 = tag.particleIso();
      pfChIso1 = tag.chargedHadronIso();
      pfNhIso1 = tag.neutralHadronIso();
-     pfPhotonIso1 = tag.photonIso();
-     isLooseMuon1 = tag.isLooseMuon() ? 1 : 0;
+     pfGammaIso1 = tag.photonIso();
+     pfCombIso1 = tag.chargedHadronIso() + TMath::Max(tag.neutralHadronIso() + tag.photonIso() - 0.5*(tag.puChargedHadronIso()),Double_t(0));
      isSoftMuon1  = tag.isSoftMuon(PV) ? 1 : 0;
-     isTightMuon1 = tag.isTightMuon(PV) ? 1 : 0;
+     isLooseMuon1 = tag.isLooseMuon() ? 1 : 0;
      isMediumMuon1 = tag.isMediumMuon() ? 1 : 0;
+     isTightMuon1 = tag.isTightMuon(PV) ? 1 : 0;
 
      // Match to a trigger object
      matchTrigObj1 = 0;
@@ -262,19 +283,29 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
        if(i2==i1) continue;
        const pat::Muon &probe = (*muons)[i2];
 
+       if(tag.charge() == probe.charge())	continue; 	// opposite charge requirement
+       if(probe.pt() < PT_CUT)			continue; 	// lepton pT cut
+       if(fabs(probe.eta()) > ETA_CUT)		continue; 	// lepton |eta| cut
+
        // Probe lepton information
+       LorentzVector vProbe(probe.pt(),probe.eta(),probe.phi(),MUON_MASS);
+       lep2 = &vProbe;
+
        q2 = probe.charge();
+       trkIso2 = probe.trackIso();
+       ecalIso2 = probe.ecalIso();
+       hcalIso2 = probe.hcalIso();
+       caloIso2 = probe.caloIso();
+       pfAllpcIso2 = probe.particleIso();
        pfChIso2 = probe.chargedHadronIso();
        pfNhIso2 = probe.neutralHadronIso();
-       pfPhotonIso2 = probe.photonIso();
-       isLooseMuon2 = probe.isLooseMuon() ? 1 : 0;
+       pfGammaIso2 = probe.photonIso();
+       pfCombIso2 = probe.chargedHadronIso() + TMath::Max(probe.neutralHadronIso() + probe.photonIso() - 0.5*(probe.puChargedHadronIso()),Double_t(0));
        isSoftMuon2  = probe.isSoftMuon(PV) ? 1 : 0;
-       isTightMuon2 = probe.isTightMuon(PV) ? 1 : 0;
+       isLooseMuon2 = probe.isLooseMuon() ? 1 : 0;
        isMediumMuon2 = probe.isMediumMuon() ? 1 : 0;
+       isTightMuon2 = probe.isTightMuon(PV) ? 1 : 0;
 
-       LorentzVector vProbe(probe.pt(),probe.eta(),probe.phi(),MUON_MASS);
-
-       lep2 = &vProbe;
 
        // Match to a trigger object
        matchTrigObj2 = 0;
@@ -303,8 +334,8 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
          id1 = gen1->pdgId(), id2 = gen2->pdgId();
          eta1 = gen1->eta(), eta2 = gen2->eta();
          phi1 = gen1->phi(), phi2 = gen2->phi();
-         match1 = ( fabs(id1)==13 && sqrt((tag.eta()-eta1)*(tag.eta()-eta1)+(tag.phi()-phi1)*(tag.phi()-phi1)) < 0.5 );
-         match2 = ( fabs(id2)==13 && sqrt((probe.eta()-eta2)*(probe.eta()-eta2)+(probe.phi()-phi2)*(probe.phi()-phi2)) < 0.5 );
+         match1 = ( fabs(id1)==LEPTON_ID && sqrt((tag.eta()-eta1)*(tag.eta()-eta1)+(tag.phi()-phi1)*(tag.phi()-phi1)) < 0.5 );
+         match2 = ( fabs(id2)==LEPTON_ID && sqrt((probe.eta()-eta2)*(probe.eta()-eta2)+(probe.phi()-phi2)*(probe.phi()-phi2)) < 0.5 );
          if(match1 && match2) hasGenMatch = kTRUE;
        }
        matchGen  = hasGenMatch ? 1 : 0;
@@ -341,7 +372,6 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
         rawpfmetPhi = vrawpfMET.Phi();
 
        // Generator level lepton information and hadronic recoil
-       genV = new LorentzVector(0,0,0,0);
        genVPdgID = 0;
        genVPt    = 0;
        genVPhi   = 0;
@@ -436,16 +466,18 @@ selectZmm::beginJob()
   ///// muon specific ///// 
   outTree->Branch("trkIso1",       &trkIso1,      "trkIso1/F");       // track isolation of tag lepton
   outTree->Branch("trkIso2",       &trkIso2,      "trkIso2/F");       // track isolation of probe lepton
-  outTree->Branch("emIso1",        &emIso1,       "emIso1/F");        // ECAL isolation of tag lepton
-  outTree->Branch("emIso2",        &emIso2,       "emIso2/F");        // ECAL isolation of probe lepton
-  outTree->Branch("hadIso1",       &hadIso1,      "hadIso1/F");       // HCAL isolation of tag lepton
-  outTree->Branch("hadIso2",       &hadIso2,      "hadIso2/F");       // HCAL isolation of probe lepton
+  outTree->Branch("ecalIso1",      &ecalIso1,     "ecalIso1/F");      // ECAL isolation of tag lepton
+  outTree->Branch("ecalIso2",      &ecalIso2,     "ecalIso2/F");      // ECAL isolation of probe lepton
+  outTree->Branch("hcalIso1",      &hcalIso1,     "hcalIso1/F");      // HCAL isolation of tag lepton
+  outTree->Branch("hcalIso2",      &hcalIso2,     "hcalIso2/F");      // HCAL isolation of probe lepton
+  outTree->Branch("pfAllpcIso1",   &pfAllpcIso1,  "pfAllpcIso1/F");   // tag lepton all particle isolation
+  outTree->Branch("pfAllpcIso2",   &pfAllpcIso2,  "pfAllpcIso2/F");   // probe lepton all particle isolation
   outTree->Branch("pfChIso1",      &pfChIso1,     "pfChIso1/F");      // tag lepton charged hadron isolation
   outTree->Branch("pfChIso2",      &pfChIso2,     "pfChIso2/F");      // probe lepton charged hadron isolation
   outTree->Branch("pfNhIso1",      &pfNhIso1,     "pfNhIso1/F");      // tag lepton neutral hadron isolation
   outTree->Branch("pfNhIso2",      &pfNhIso2,     "pfNhIso2/F");      // probe lepton neutral hadron isolation
-  outTree->Branch("pfPhotonIso1",  &pfPhotonIso1, "pfPhotonIso1/F");  // tag lepton photon isolation
-  outTree->Branch("pfPhotonIso2",  &pfPhotonIso2, "pfPhotonIso2/F");  // probe lepton photon isolation
+  outTree->Branch("pfGammaIso1",  &pfGammaIso1, "pfGammaIso1/F");  // tag lepton gamma isolation
+  outTree->Branch("pfGammaIso2",  &pfGammaIso2, "pfGammaIso2/F");  // probe lepton gamma isolation
   outTree->Branch("pfCombIso1",    &pfCombIso1,   "pfCombIso1/F");    // PF combined isolation of tag lepton
   outTree->Branch("pfCombIso2",    &pfCombIso2,   "pfCombIso2/F");    // PF combined isolation of probe lepton
   outTree->Branch("isLooseMuon1",  &isLooseMuon1, "isLooseMuon1/I");  // tag lepton loose muon ID
