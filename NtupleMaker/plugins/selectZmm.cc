@@ -111,10 +111,11 @@ edm::Service<TFileService> fs_Zmm;
 //
 // Declare output ntuple variables
 //
-UInt_t 	runNum=0, lumiSec=0, evtNum=0;
+UInt_t 	runNum=0, lumiSec=0, evtNum=0;	// Todo
 UInt_t  matchGen=0;
-UInt_t 	category=0;
-UInt_t  npv=0, npu=0;
+UInt_t 	category=0;			// Todo
+UInt_t  npv=0, npu=0;			// Todo
+UInt_t  vtx_isFake=0, vtx_ndof=0;	
 UInt_t  id_1, id_2;
 Double_t x_1, x_2, xPDF_1, xPDF_2;	// Todo 
 Double_t scalePDF, weightPDF;		// Todo	
@@ -137,10 +138,13 @@ Float_t pfChIso1=0, pfChIso2=0;
 Float_t pfNhIso1=0, pfNhIso2=0;
 Float_t pfGammaIso1=0, pfGammaIso2=0;
 Float_t pfCombIso1=0, pfCombIso2=0;	
+Float_t pfCombRelIso1=0, pfCombRelIso2=0;	
 Float_t d01, dz1, d02, dz2; 		// Todo
 Float_t muNchi21, muNchi22;		// Todo
-UInt_t nPixHits1, nTkLayers1, nPixHits2, nTkLayers2;	// Todo
-UInt_t nValidHits1, nMatch1, nValidHits2, nMatch2;	// Todo
+UInt_t nPixHits1, nPixHits2;		// Todo
+UInt_t nTkLayers1, nTkLayers2;		// Todo
+UInt_t nValidHits1, nValidHits2;	// Todo
+UInt_t nMatch1, nMatch2;		// Todo
 UInt_t typeBits1, typeBits2; 		// Todo
 Int_t isLooseMuon1=0, isSoftMuon1=0, isTightMuon1=0, isMediumMuon1=0;
 Int_t isLooseMuon2=0, isSoftMuon2=0, isTightMuon2=0, isMediumMuon2=0;
@@ -185,6 +189,8 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
    if (vertices->empty()) return; // Skip the event if no PV found
    const reco::Vertex &PV = vertices->front();
    npv = vertices->size();
+   vtx_isFake = PV.isFake();
+   vtx_ndof = PV.ndof();
 
    Handle<pat::MuonCollection> muons;
    iEvent.getByToken(muonToken_, muons);
@@ -263,6 +269,7 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
      pfNhIso1 = tag.neutralHadronIso();
      pfGammaIso1 = tag.photonIso();
      pfCombIso1 = tag.chargedHadronIso() + TMath::Max(tag.neutralHadronIso() + tag.photonIso() - 0.5*(tag.puChargedHadronIso()),Double_t(0));
+     pfCombRelIso1 = pfCombIso1 / tag.pt();
      isSoftMuon1  = tag.isSoftMuon(PV) ? 1 : 0;
      isLooseMuon1 = tag.isLooseMuon() ? 1 : 0;
      isMediumMuon1 = tag.isMediumMuon() ? 1 : 0;
@@ -301,6 +308,7 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
        pfNhIso2 = probe.neutralHadronIso();
        pfGammaIso2 = probe.photonIso();
        pfCombIso2 = probe.chargedHadronIso() + TMath::Max(probe.neutralHadronIso() + probe.photonIso() - 0.5*(probe.puChargedHadronIso()),Double_t(0));
+       pfCombRelIso2 = pfCombIso2 / probe.pt();
        isSoftMuon2  = probe.isSoftMuon(PV) ? 1 : 0;
        isLooseMuon2 = probe.isLooseMuon() ? 1 : 0;
        isMediumMuon2 = probe.isMediumMuon() ? 1 : 0;
@@ -318,9 +326,12 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
          }
        }
 
-       // Dilepton 4-vector
+       // Dilepton 4-vector and mass window
        LorentzVector vDilep = vTag + vProbe;
        dilep = &vDilep;
+       if((vDilep.M() < MASS_LOW) || (vDilep.M() > MASS_HIGH)) continue;
+
+       // determine event category
 
        // Perform matching of leptons to generator level leptons
        const reco::GenParticle* gen1 = tag.genParticle();
@@ -440,6 +451,8 @@ selectZmm::beginJob()
   outTree->Branch("scalePDF",	   &scalePDF, 	   "scalePDF/d");      // PDF info -- energy scale of parton interaction
   outTree->Branch("weightPDF",	   &weightPDF, 	   "weightPDF/d");     // PDF info -- PDF weight
   outTree->Branch("npv",           &npv,           "npv/I");           // number of vertices
+  outTree->Branch("vtx_isFake",    &vtx_isFake,    "vtx_isFake/I");    // number of fake vertices
+  outTree->Branch("vtx_ndof",      &vtx_ndof,      "vtx_ndof/I");      // vertices number of degree of freedom
   outTree->Branch("npu",           &npu,           "npu/I");           // number of in-time PU events(MC)
   outTree->Branch("genV", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &genV); // GEN boson 4-vector (signal MC)
   outTree->Branch("genVPt",        &genVPt,        "genVPt/F");        // GEN boson pT (signal MC)
@@ -480,6 +493,8 @@ selectZmm::beginJob()
   outTree->Branch("pfGammaIso2",  &pfGammaIso2, "pfGammaIso2/F");  // probe lepton gamma isolation
   outTree->Branch("pfCombIso1",    &pfCombIso1,   "pfCombIso1/F");    // PF combined isolation of tag lepton
   outTree->Branch("pfCombIso2",    &pfCombIso2,   "pfCombIso2/F");    // PF combined isolation of probe lepton
+  outTree->Branch("pfCombRelIso1",    &pfCombRelIso1,   "pfCombRelIso1/F");    // PF combined relative isolation of tag lepton
+  outTree->Branch("pfCombRelIso2",    &pfCombRelIso2,   "pfCombRelIso2/F");    // PF combined relative isolation of probe lepton
   outTree->Branch("isLooseMuon1",  &isLooseMuon1, "isLooseMuon1/I");  // tag lepton loose muon ID
   outTree->Branch("isSoftMuon1",   &isSoftMuon1,  "isSoftMuon1/I");   // tag lepton soft muon ID
   outTree->Branch("isTightMuon1",  &isTightMuon1, "isTightMuon1/I");  // tag lepton tight muon ID
