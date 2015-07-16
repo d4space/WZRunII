@@ -139,12 +139,14 @@ Float_t pfNhIso1=0, pfNhIso2=0;
 Float_t pfGammaIso1=0, pfGammaIso2=0;
 Float_t pfCombIso1=0, pfCombIso2=0;	
 Float_t pfCombRelIso1=0, pfCombRelIso2=0;	
-Float_t d01, dz1, d02, dz2; 		// Todo
-Float_t muNchi21, muNchi22;		// Todo
-UInt_t nPixHits1, nPixHits2;		// Todo
-UInt_t nTkLayers1, nTkLayers2;		// Todo
-UInt_t nValidHits1, nValidHits2;	// Todo
-UInt_t nMatch1, nMatch2;		// Todo
+Float_t d01, d02; 		// Todo
+Float_t dz1, dz2; 	
+Float_t dB1, dB2; 			
+Float_t muNchi21, muNchi22;		
+UInt_t nPixHits1, nPixHits2;		
+UInt_t nTkLayers1, nTkLayers2;		
+UInt_t nValidHits1, nValidHits2;	
+UInt_t nMatch1, nMatch2;		
 UInt_t typeBits1, typeBits2; 		// Todo
 Int_t isLooseMuon1=0, isSoftMuon1=0, isTightMuon1=0, isMediumMuon1=0;
 Int_t isLooseMuon2=0, isSoftMuon2=0, isTightMuon2=0, isMediumMuon2=0;
@@ -249,8 +251,8 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
 
      Int_t isLooseMuon = tag.isLooseMuon() ? 1 : 0;
      
-     if(tag.pt() < PT_CUT) 		continue;	// lepton pT cut
-     if(fabs(tag.eta()) > ETA_CUT)	continue;	// lepton |eta| cut
+     //if(tag.pt() < PT_CUT) 		continue;	// lepton pT cut
+     //if(fabs(tag.eta()) > ETA_CUT)	continue;	// lepton |eta| cut
      if(!isLooseMuon)			continue; 	// lepton selection
 
      foundTag = kTRUE;
@@ -270,6 +272,19 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
      pfGammaIso1 = tag.photonIso();
      pfCombIso1 = tag.chargedHadronIso() + TMath::Max(tag.neutralHadronIso() + tag.photonIso() - 0.5*(tag.puChargedHadronIso()),Double_t(0));
      pfCombRelIso1 = pfCombIso1 / tag.pt();
+     if(!tag.globalTrack().isNull())
+     {
+       muNchi21 = tag.normChi2();
+       nValidHits1 = tag.globalTrack()->hitPattern().numberOfValidMuonHits();
+     }
+     if(!tag.innerTrack().isNull())
+     {
+       nPixHits1 = tag.innerTrack()->hitPattern().numberOfValidPixelHits();
+       nTkLayers1 = tag.innerTrack()->hitPattern().trackerLayersWithMeasurement();
+     }
+     nMatch1 = tag.numberOfMatchedStations();
+     dz1 = tag.muonBestTrack()->dz(PV.position());
+     dB1 = tag.dB();
      isSoftMuon1  = tag.isSoftMuon(PV) ? 1 : 0;
      isLooseMuon1 = tag.isLooseMuon() ? 1 : 0;
      isMediumMuon1 = tag.isMediumMuon() ? 1 : 0;
@@ -290,9 +305,9 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
        if(i2==i1) continue;
        const pat::Muon &probe = (*muons)[i2];
 
-       if(tag.charge() == probe.charge())	continue; 	// opposite charge requirement
-       if(probe.pt() < PT_CUT)			continue; 	// lepton pT cut
-       if(fabs(probe.eta()) > ETA_CUT)		continue; 	// lepton |eta| cut
+       //if(tag.charge() == probe.charge())	continue; 	// opposite charge requirement
+       //if(probe.pt() < PT_CUT)			continue; 	// lepton pT cut
+       //if(fabs(probe.eta()) > ETA_CUT)		continue; 	// lepton |eta| cut
 
        // Probe lepton information
        LorentzVector vProbe(probe.pt(),probe.eta(),probe.phi(),MUON_MASS);
@@ -309,6 +324,19 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
        pfGammaIso2 = probe.photonIso();
        pfCombIso2 = probe.chargedHadronIso() + TMath::Max(probe.neutralHadronIso() + probe.photonIso() - 0.5*(probe.puChargedHadronIso()),Double_t(0));
        pfCombRelIso2 = pfCombIso2 / probe.pt();
+       if(!probe.globalTrack().isNull())
+       {
+         muNchi22 = probe.normChi2();
+         nValidHits2 = probe.globalTrack()->hitPattern().numberOfValidMuonHits();
+       }
+       if(!probe.innerTrack().isNull())
+       {
+         nPixHits2 = probe.innerTrack()->hitPattern().numberOfValidPixelHits();
+         nTkLayers2 = probe.innerTrack()->hitPattern().trackerLayersWithMeasurement();
+       }
+       nMatch2 = probe.numberOfMatchedStations();
+       dz2 = probe.muonBestTrack()->dz(PV.position());
+       dB2 = probe.dB();
        isSoftMuon2  = probe.isSoftMuon(PV) ? 1 : 0;
        isLooseMuon2 = probe.isLooseMuon() ? 1 : 0;
        isMediumMuon2 = probe.isMediumMuon() ? 1 : 0;
@@ -506,7 +534,9 @@ selectZmm::beginJob()
   outTree->Branch("d01",	   &d01,	  "d01/F");	      // transverse impact parameter of tag lepton
   outTree->Branch("d02",	   &d02,	  "d02/F");	      // transverse impact parameter of probe lepton
   outTree->Branch("dz1",	   &dz1,	  "dz1/F");	      // longitudinal impact parameter of tag lepton
-  outTree->Branch("dz2",	   &dz2,	  "dz2/F");	      // longitudinal impact parameter of probe lepton
+  outTree->Branch("dz2",	   &dz2,	  "dz2/F");	      // ??? impact parameter of probe lepton
+  outTree->Branch("dB1",	   &dB1,	  "dB1/F");	      // ??? impact parameter of tag lepton
+  outTree->Branch("dB2",	   &dB2,	  "dB2/F");	      // longitudinal impact parameter of probe lepton
   outTree->Branch("muNchi21",	   &muNchi21,	  "muNchi21/F");      // muon fit normalized chi^2 of tag lepton
   outTree->Branch("muNchi22",	   &muNchi22,	  "muNchi22/F");      // muon fit normalized chi^2 of probe lepton
   outTree->Branch("nPixHits1",     &nPixHits1,    "nPixHits1/i");     // number of pixel hits of tag muon
