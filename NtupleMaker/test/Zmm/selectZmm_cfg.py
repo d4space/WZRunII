@@ -15,7 +15,7 @@ process.source = cms.Source("PoolSource",
     # replace 'myfile.root' with the source file you want to use
     fileNames = cms.untracked.vstring(
 #        '/store/user/arapyan/WplusToENu_CT10_13TeV-powheg-pythia8/Spring14dr-PU-S14-POSTLS170_V6-v1/140723_170241/0000/miniAOD-prod_PAT_19.root'
-	'file:/u/user/sangilpark/WorkDir/WZ_13TeV/CMSSW_7_4_1_patch1/src/WZ/CSA14/test/datasample/DYJetsToLNu_M50_13TeV_bx25sample_MINIAODSIM.root'
+	'file:/d3/scratch/khakim/RunII/miniAODsamples/Spring15DR74/DYJetsToLL_M-50_TuneCUETP8M1_amcatnloFXFX_Asympt25ns_MCRUN2_74_V9_v3/5A752801-7514-E511-9EB2-00259073E4C8.root'
 
 ## DYJetsToLL 13TeV bx50 dataset-----------------------------------------
 #       'root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/DYJetsToLL_M-50_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/StartupFlat10to50bx50Raw_MCRUN2_74_V8-v1/10000/38D1C54C-0F02-E511-A54E-AC853D9F5256.root',

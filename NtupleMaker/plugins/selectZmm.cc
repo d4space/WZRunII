@@ -42,6 +42,10 @@
 #include "DataFormats/Common/interface/TriggerResults.h"
 #include "DataFormats/PatCandidates/interface/TriggerObjectStandAlone.h"
 
+#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/PdfInfo.h"
+
 #include <TSystem.h>                // interface to OS
 #include <TFile.h>                  // file handle class
 #include <TTree.h>                  // class to access ntuples
@@ -111,14 +115,17 @@ edm::Service<TFileService> fs_Zmm;
 //
 // Declare output ntuple variables
 //
-UInt_t 	runNum=0, lumiSec=0, evtNum=0;	// Todo
+UInt_t 	run=0, lumi=0, event=0;	// Todo
 UInt_t  matchGen=0;
 UInt_t 	category=0;			// Todo
 UInt_t  npv=0, npu=0;			// Todo
 UInt_t  vtx_isFake=0, vtx_ndof=0;	
-UInt_t  id_1, id_2;
-Double_t x_1, x_2, xPDF_1, xPDF_2;	// Todo 
-Double_t scalePDF, weightPDF;		// Todo	
+
+// PDF information
+Float_t pdfid1=-9999.9, pdfx1=-9999.9, pdfx1PDF=-9999.9;
+Float_t pdfid2=-9999.9, pdfx2=-9999.9, pdfx2PDF=-9999.9;
+Float_t pdfscalePDF=-9999.9, pdfweightPDF=-9999.9;
+
 LorentzVector *genV=0;			// Todo
 Float_t genVPdgID=0, genVPt=0, genVPhi=0, genVy=0, genVMass=0;
 Float_t scale1fb; 			// Todo
@@ -184,6 +191,9 @@ void
 selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
 {
    using namespace edm;
+   run   = iEvent.id().run();
+   lumi  = iEvent.id().luminosityBlock();
+   event = iEvent.id().event();
 
    Handle<reco::VertexCollection> vertices;
    iEvent.getByToken(vtxToken_, vertices);
@@ -378,8 +388,15 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
          if(match1 && match2) hasGenMatch = kTRUE;
        }
        matchGen  = hasGenMatch ? 1 : 0;
-       id_1  = hasGenMatch ? id1 : -999;
-       id_2  = hasGenMatch ? id2 : -999;
+       //PDF information
+       ///edm::Handle<GenEventInfoProduct> GenInfoHandle_;
+       ///pdfid1      = ((GenInfoHandle_.pdf())->id).first;
+       ///pdfid2      = ((GenInfoHandle_.pdf())->id).second;
+       ///pdfx1       = ((GenInfoHandle_.pdf())->x).first;
+       ///pdfx2       = ((GenInfoHandle_.pdf())->x).second;
+       ///pdfx1PDF    = ((GenInfoHandle_.pdf())->xPDF).first;
+       ///pdfx2PDF    = ((GenInfoHandle_.pdf())->xPDF).second;
+       ///pdfscalePDF = (GenInfoHandle_.pdf())->scalePDF;
 
        // Type-1 corrected PF MET
        edm::Handle<pat::METCollection> mets;
@@ -465,24 +482,23 @@ selectZmm::beginJob()
   //outTree = new TTree("Events","Events");
   outTree = fs_Zmm->make<TTree>("Events", "Events");
 
-  outTree->Branch("runNum",        &runNum,   	   "runNum/i");        // event run number
-  outTree->Branch("lumiSec",       &lumiSec,   	   "lumiSec/i");       // event lumi section
-  outTree->Branch("evtNum",        &evtNum,   	   "evtNum/i");        // event number
+  outTree->Branch("run",           &run,   	   "run/I");           // event run number
+  outTree->Branch("lumi",          &lumi,   	   "lumi/I");          // event lumi section
+  outTree->Branch("event",         &event,   	   "event/I");         // event number
   outTree->Branch("matchGen",      &matchGen,      "matchGen/I");      // event has both leptons matched to MC Z->ll
   outTree->Branch("category",      &category,      "category/I");      // dilepton category
-  outTree->Branch("id_1",	   &id_1, 	   "id_1/I");          // PDF info -- parton ID for parton 1
-  outTree->Branch("id_2",	   &id_2, 	   "id_2/I");          // PDF info -- parton ID for parton 2
-  outTree->Branch("x_1",	   &x_1, 	   "x_1/d");           // PDF info -- x for parton 1
-  outTree->Branch("x_2",	   &x_2, 	   "x_2/d");           // PDF info -- x for parton 2
-  outTree->Branch("xPDF_1",	   &xPDF_1, 	   "xPDF_1/d");        // PDF info -- x*F for parton 1
-  outTree->Branch("xPDF_2",	   &xPDF_2, 	   "xPDF_2/d");        // PDF info -- x*F for parton 2
-  outTree->Branch("scalePDF",	   &scalePDF, 	   "scalePDF/d");      // PDF info -- energy scale of parton interaction
-  outTree->Branch("weightPDF",	   &weightPDF, 	   "weightPDF/d");     // PDF info -- PDF weight
+  outTree->Branch("pdfid1",	   &pdfid1, 	   "pdfid1/F");        // PDF info -- parton ID for parton 1
+  outTree->Branch("pdfid2",	   &pdfid2, 	   "pdfid2/F");        // PDF info -- parton ID for parton 2
+  outTree->Branch("pdfx1",	   &pdfx1, 	   "pdfx1/F");         // PDF info -- x for parton 1
+  outTree->Branch("pdfx2",	   &pdfx2, 	   "pdfx2/F");         // PDF info -- x for parton 2
+  outTree->Branch("pdfx1PDF",	   &pdfx1PDF, 	   "pdfx1PDF/F");      // PDF info -- x*F for parton 1
+  outTree->Branch("pdfx2PDF",	   &pdfx2PDF, 	   "pdfx2PDF/F");      // PDF info -- x*F for parton 2
+  outTree->Branch("pdfscalePDF",   &pdfscalePDF,   "pdfscalePDF/F");   // PDF info -- energy scale of parton interaction
+  outTree->Branch("pdfweightPDF",  &pdfweightPDF,  "pdfweightPDF/F");  // PDF info -- PDF weight
   outTree->Branch("npv",           &npv,           "npv/I");           // number of vertices
   outTree->Branch("vtx_isFake",    &vtx_isFake,    "vtx_isFake/I");    // number of fake vertices
   outTree->Branch("vtx_ndof",      &vtx_ndof,      "vtx_ndof/I");      // vertices number of degree of freedom
   outTree->Branch("npu",           &npu,           "npu/I");           // number of in-time PU events(MC)
-  outTree->Branch("genV", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &genV); // GEN boson 4-vector (signal MC)
   outTree->Branch("genVPt",        &genVPt,        "genVPt/F");        // GEN boson pT (signal MC)
   outTree->Branch("genVPhi",       &genVPhi,       "genVPhi/F");       // GEN boson phi (signal MC)
   outTree->Branch("genVy",         &genVy,         "genVy/F");         // GEN boson rapidity (signal MC)
@@ -498,6 +514,7 @@ selectZmm::beginJob()
   outTree->Branch("u2",            &u2,            "u2/F");            // perpendicular component of recoil
   outTree->Branch("q1",            &q1,            "q1/I");            // tag lepton charge
   outTree->Branch("q2",            &q2,            "q2/I");            // probe lepton charge
+  outTree->Branch("genV", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &genV); // GEN boson 4-vector (signal MC)
   outTree->Branch("dilep","ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &dilep); // dilepton 4-vector
   outTree->Branch("lep1", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &lep1);  // lepton 4-vector (tag lepton)
   outTree->Branch("lep2", "ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> >", &lep2);  // lepton 4-vector (probe lepton)
@@ -517,12 +534,12 @@ selectZmm::beginJob()
   outTree->Branch("pfChIso2",      &pfChIso2,     "pfChIso2/F");      // probe lepton charged hadron isolation
   outTree->Branch("pfNhIso1",      &pfNhIso1,     "pfNhIso1/F");      // tag lepton neutral hadron isolation
   outTree->Branch("pfNhIso2",      &pfNhIso2,     "pfNhIso2/F");      // probe lepton neutral hadron isolation
-  outTree->Branch("pfGammaIso1",  &pfGammaIso1, "pfGammaIso1/F");  // tag lepton gamma isolation
-  outTree->Branch("pfGammaIso2",  &pfGammaIso2, "pfGammaIso2/F");  // probe lepton gamma isolation
+  outTree->Branch("pfGammaIso1",   &pfGammaIso1,  "pfGammaIso1/F");  // tag lepton gamma isolation
+  outTree->Branch("pfGammaIso2",   &pfGammaIso2,  "pfGammaIso2/F");  // probe lepton gamma isolation
   outTree->Branch("pfCombIso1",    &pfCombIso1,   "pfCombIso1/F");    // PF combined isolation of tag lepton
   outTree->Branch("pfCombIso2",    &pfCombIso2,   "pfCombIso2/F");    // PF combined isolation of probe lepton
-  outTree->Branch("pfCombRelIso1",    &pfCombRelIso1,   "pfCombRelIso1/F");    // PF combined relative isolation of tag lepton
-  outTree->Branch("pfCombRelIso2",    &pfCombRelIso2,   "pfCombRelIso2/F");    // PF combined relative isolation of probe lepton
+  outTree->Branch("pfCombRelIso1", &pfCombRelIso1,"pfCombRelIso1/F");    // PF combined relative isolation of tag lepton
+  outTree->Branch("pfCombRelIso2", &pfCombRelIso2,"pfCombRelIso2/F");    // PF combined relative isolation of probe lepton
   outTree->Branch("isLooseMuon1",  &isLooseMuon1, "isLooseMuon1/I");  // tag lepton loose muon ID
   outTree->Branch("isSoftMuon1",   &isSoftMuon1,  "isSoftMuon1/I");   // tag lepton soft muon ID
   outTree->Branch("isTightMuon1",  &isTightMuon1, "isTightMuon1/I");  // tag lepton tight muon ID
