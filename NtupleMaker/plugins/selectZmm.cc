@@ -115,7 +115,7 @@ edm::Service<TFileService> fs_Zmm;
 //
 // Declare output ntuple variables
 //
-UInt_t 	run=0, lumi=0, event=0;	// Todo
+UInt_t 	run=0, lumi=0, event=0;	
 UInt_t  matchGen=0;
 UInt_t 	category=0;			// Todo
 UInt_t  npv=0, npu=0;			// Todo
@@ -232,7 +232,7 @@ selectZmm::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
      //==================================	
      //Check selected triggers
      //==================================	
-     std::cout<<"Selected Trigger: " <<trig<<std::endl;
+     //std::cout<<"Selected Trigger: " <<trig<<std::endl;
      passSingleMuTrigger = triggerBits->accept(i) ? 1 : 0;
      break;
    }
@@ -551,9 +551,9 @@ selectZmm::beginJob()
   outTree->Branch("d01",	   &d01,	  "d01/F");	      // transverse impact parameter of tag lepton
   outTree->Branch("d02",	   &d02,	  "d02/F");	      // transverse impact parameter of probe lepton
   outTree->Branch("dz1",	   &dz1,	  "dz1/F");	      // longitudinal impact parameter of tag lepton
-  outTree->Branch("dz2",	   &dz2,	  "dz2/F");	      // ??? impact parameter of probe lepton
+  outTree->Branch("dz2",	   &dz2,	  "dz2/F");	      // longitudinal impact parameter of probe lepton
   outTree->Branch("dB1",	   &dB1,	  "dB1/F");	      // ??? impact parameter of tag lepton
-  outTree->Branch("dB2",	   &dB2,	  "dB2/F");	      // longitudinal impact parameter of probe lepton
+  outTree->Branch("dB2",	   &dB2,	  "dB2/F");	      // ??? impact parameter of probe lepton
   outTree->Branch("muNchi21",	   &muNchi21,	  "muNchi21/F");      // muon fit normalized chi^2 of tag lepton
   outTree->Branch("muNchi22",	   &muNchi22,	  "muNchi22/F");      // muon fit normalized chi^2 of probe lepton
   outTree->Branch("nPixHits1",     &nPixHits1,    "nPixHits1/i");     // number of pixel hits of tag muon
