@@ -12,7 +12,7 @@
 
 typedef ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> > LorentzVector;
 
-void plotDileptonMass(const TString infile) {
+void plotNPV(const TString infile) {
 
   TFile* inputFile = new TFile();
   TTree* inputTree = new TTree();
@@ -20,21 +20,21 @@ void plotDileptonMass(const TString infile) {
   //
   // Declare variables to read in ntuple
   //
-  LorentzVector *dilep=0;
-
+  Int_t npv;
+  
   //
   // Declare histograms
   //
   //
-  TH1D *hmass  = new TH1D("hmass","",60,60,120);
-        hmass->SetStats(0);
-        hmass->SetLineColor(1);
-        hmass->GetXaxis()->SetTitle("Dilepton Mass  [ GeV ]");
-        hmass->GetXaxis()->SetTitleSize(0.05);
-        hmass->GetXaxis()->SetTitleOffset(0.75);
-        hmass->GetYaxis()->SetTitle("Events / 1.0 GeV");
-        hmass->GetYaxis()->SetTitleSize(0.055);
-        hmass->GetYaxis()->SetTitleOffset(0.9);
+  TH1D *hNPV  = new TH1D("hNPV","",100,0,100);
+        hNPV->SetStats(0);
+        hNPV->SetLineColor(1);
+        hNPV->GetXaxis()->SetTitle("NPV");
+        hNPV->GetXaxis()->SetTitleSize(0.05);
+        hNPV->GetXaxis()->SetTitleOffset(0.75);
+        hNPV->GetYaxis()->SetTitle("Events / 1.0 GeV");
+        hNPV->GetYaxis()->SetTitleSize(0.055);
+        hNPV->GetYaxis()->SetTitleOffset(0.9);
 
 
   //
@@ -43,7 +43,7 @@ void plotDileptonMass(const TString infile) {
   inputFile = new TFile(infile);
   inputTree = (TTree*)inputFile->Get("selectZmm/Events");
   
-  inputTree->SetBranchAddress("dilep", &dilep);   // Dilepton 4-vector
+  inputTree->SetBranchAddress("npv", &npv);   // number of primary vertex
            
   for(int jentry=0;jentry<inputTree->GetEntries();jentry++) {
     inputTree->GetEntry(jentry);
@@ -51,7 +51,7 @@ void plotDileptonMass(const TString infile) {
     //
     // Fill histograms
     //
-    hmass->Fill(dilep->M());
+    hNPV->Fill(npv);
   }
 
   TLegend *leg = new TLegend(0.5373563,0.7097458,0.8577586,0.8474576,NULL,"brNDC");
@@ -63,11 +63,8 @@ void plotDileptonMass(const TString infile) {
   leg->SetLineWidth(1);
   leg->SetFillColor(0);
   leg->SetFillStyle(1001);
-  leg->AddEntry(hmass,"dilep mass","lp");
+  leg->AddEntry(hNPV,"NPV","lp");
 
-  hmass->Scale(1/hmass->Integral());
-
-  hmass->Scale(1953.0*0.1);
 
   //
   // Save plots
@@ -79,7 +76,7 @@ void plotDileptonMass(const TString infile) {
   cmass->SetBorderSize(2);
   cmass->SetFrameBorderMode(0);
   cmass->cd();
-  hmass->Draw();
+  hNPV->Draw();
   leg->Draw("same");
-  cmass->Print("dileptonmass.png");
+  cmass->Print("npv.png");
 }
